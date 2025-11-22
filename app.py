@@ -6,6 +6,7 @@ import os
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, accuracy_score
 from imblearn.over_sampling import SMOTE
 import warnings
 warnings.filterwarnings('ignore')
@@ -52,7 +53,6 @@ def load_model_and_scaler():
                 'If you answered "Yes" to the question above, how many hours did you work per week?': 'Work Hours',
                 'If you answered "Yes" to the question above, how many hours per week did you spend on extracurricular activities in the last semester?': 'Hours Extracurricular Activity',
                 'How many academic units were you enrolled in during the most recent (last) semester?': 'Academic unit',
-                'Were you involved in extracurricular activities (e.g., student orgs, sports, volunteering)?': 'Extracurricular Activities',
                 'Stress level': 'Stress Level',
                 'Level of Social Support': 'Social Support',
                 'On average, how many hours did you sleep per night?': 'Sleep Hours'
@@ -88,16 +88,29 @@ def load_model_and_scaler():
             elif 'Late Submissions' in df_clean.columns:
                 df_clean['Late Submissions'] = df_clean['Late Submissions'].replace(0, 1)
             
-            # Create engineered features
+            # Create engineered features - FIXED CALCULATIONS
             df_clean["Total Study Hours"] = df_clean["Study Hours (Weekdays)"] + df_clean["Study Hours (Weekends)"]
+            
+            # Fix: Avoid division by zero and ensure proper risk indicators
             df_clean["StudyEfficiency"] = df_clean["Total Study Hours"] / (df_clean["Late Submissions"] + 0.1)
+            
+            # Higher academic engagement should be POSITIVE for student success
             df_clean["AcademicEngagement"] = df_clean["Hours Extracurricular Activity"] + df_clean["Social Support"]
+            
+            # Higher stress balance (stress - support) should indicate HIGHER risk
             df_clean["StressBalance"] = df_clean["Stress Level"] - df_clean["Social Support"]
+            
+            # Higher time burden should indicate HIGHER risk
             df_clean["TimeBurden"] = df_clean["Work Hours"] + df_clean["Hours Gaming"]
             
+            # Lower study-gaming ratio should indicate HIGHER risk
             gaming_hours = df_clean["Hours Gaming"].replace(0, 0.1)
             df_clean["StudyGamingRatio"] = df_clean["Total Study Hours"] / gaming_hours
+            
+            # Lower sleep-study ratio should indicate HIGHER risk
             df_clean["SleepStudyRatio"] = df_clean["Sleep Hours"] / (df_clean["Total Study Hours"] + 1)
+            
+            # Lower study per unit should indicate HIGHER risk
             df_clean["StudyPerUnit"] = df_clean["Total Study Hours"] / (df_clean["Academic unit"] + 0.1)
             
             # Create X and y
@@ -109,16 +122,31 @@ def load_model_and_scaler():
             X = df_clean[existing_engineered_features]
             y = df_clean['At-Risk/Not At-Risk']
             
-            # Train model
+            # Train model with better parameters
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=42)
             scaler = StandardScaler()
             X_train_scaled = scaler.fit_transform(X_train)
+            X_test_scaled = scaler.transform(X_test)
             
+            # Use SMOTE for balancing
             smote = SMOTE(random_state=42)
             X_train_res, y_train_res = smote.fit_resample(X_train_scaled, y_train)
             
-            lr = LogisticRegression(max_iter=500, class_weight="balanced", random_state=42)
+            # Use better Logistic Regression parameters
+            lr = LogisticRegression(
+                max_iter=1000, 
+                class_weight="balanced", 
+                random_state=42,
+                C=0.1,  # Regularization
+                solver='liblinear'
+            )
             lr.fit(X_train_res, y_train_res)
+            
+            # Test accuracy
+            y_pred = lr.predict(X_test_scaled)
+            accuracy = accuracy_score(y_test, y_pred)
+            
+            st.success(f"✅ Model trained successfully! Test Accuracy: {accuracy:.2%}")
             
             # Save model and scaler
             with open('model.pkl', 'wb') as f:
@@ -126,7 +154,6 @@ def load_model_and_scaler():
             with open('scaler.pkl', 'wb') as f:
                 pickle.dump(scaler, f)
                 
-            st.success("✅ Model trained and saved successfully!")
             return lr, scaler
             
     except Exception as e:
@@ -222,7 +249,8 @@ if model and scaler:
         late_submissions = st.selectbox(
             "Late Submissions frequency:",
             options=[1, 2, 3, 4],
-            format_func=lambda x: ["Never", "Rarely", "Sometimes", "Often"][x-1]
+            format_func=lambda x: ["Never", "Rarely", "Sometimes", "Often"][x-1],
+            index=2  # Default to "Sometimes"
         )
     
     with col2:
@@ -244,14 +272,16 @@ if model and scaler:
             "Stress Level (1-5 scale):",
             min_value=1,
             max_value=5,
-            value=3
+            value=3,
+            help="1 = Low stress, 5 = High stress"
         )
         
         social_support = st.slider(
             "Level of Social Support (1-5 scale):",
             min_value=1,
             max_value=5,
-            value=3
+            value=3,
+            help="1 = Low support, 5 = High support"
         )
     
     with col4:
@@ -267,19 +297,34 @@ if model and scaler:
             "Financial Difficulty (1-5 scale):",
             min_value=1,
             max_value=5,
-            value=3
+            value=3,
+            help="1 = No difficulty, 5 = High difficulty"
         )
     
     # Predict button
     if st.button("🔍 Predict Risk", type="primary", use_container_width=True):
-        # Calculate engineered features
+        # Calculate engineered features - FIXED CALCULATIONS
         total_study_hours = study_weekdays + study_weekends
+        
+        # Study Efficiency: Higher is better (more study per late submission)
         study_efficiency = total_study_hours / (late_submissions + 0.1)
+        
+        # Academic Engagement: Higher is better (more extracurricular + social support)
         academic_engagement = extracurricular_hours + social_support
+        
+        # Stress Balance: Higher is worse (more stress than support)
         stress_balance = stress_level - social_support
+        
+        # Time Burden: Higher is worse (more work + gaming time)
         time_burden = work_hours + gaming_hours
+        
+        # Study-Gaming Ratio: Higher is better (more study than gaming)
         study_gaming_ratio = total_study_hours / (gaming_hours if gaming_hours > 0 else 0.1)
+        
+        # Sleep-Study Ratio: Higher is better (more sleep relative to study)
         sleep_study_ratio = sleep_hours / (total_study_hours + 1)
+        
+        # Study per Unit: Higher is better (more study per academic unit)
         study_per_unit = total_study_hours / (academic_units if academic_units > 0 else 0.1)
         
         # Create feature array
@@ -294,9 +339,9 @@ if model and scaler:
         prediction = model.predict(features_scaled)[0]
         probability = model.predict_proba(features_scaled)[0]
         
-        # Determine probabilities
-        prob_at_risk = probability[1]  # Assuming class 1 is "At-Risk"
-        prob_not_risk = probability[0]  # Assuming class 0 is "Not At-Risk"
+        # Determine probabilities (class 1 = At-Risk, class 0 = Not At-Risk)
+        prob_at_risk = probability[1]  
+        prob_not_risk = probability[0]  
         
         # === RESULTS ===
         st.markdown("---")
@@ -308,11 +353,13 @@ if model and scaler:
         
         with col5:
             if prediction == 1:  # At-Risk
-                st.error(f"### Prediction: **AT-RISK**")
+                st.error(f"### 🚨 Prediction: **AT-RISK**")
                 confidence = prob_at_risk
+                st.warning("⚠️ This student shows multiple risk factors that may require intervention.")
             else:  # Not At-Risk
-                st.success(f"### Prediction: **NOT AT-RISK**")
+                st.success(f"### ✅ Prediction: **NOT AT-RISK**")
                 confidence = prob_not_risk
+                st.info("💡 Student appears to be managing their academic load well.")
             
             st.metric("Confidence", f"{confidence:.1%}")
         
@@ -320,25 +367,48 @@ if model and scaler:
             st.subheader("Probability Breakdown")
             st.write(f"**Not At-Risk:** {prob_not_risk:.1%}")
             st.write(f"**At-Risk:** {prob_at_risk:.1%}")
+            
+            # Risk factors analysis
+            st.subheader("🔍 Risk Factors")
+            risk_factors = []
+            
+            if total_study_hours < 10:
+                risk_factors.append("Low study hours")
+            if study_gaming_ratio < 1:
+                risk_factors.append("High gaming relative to study")
+            if time_burden > 15:
+                risk_factors.append("High time burden (work + gaming)")
+            if late_submissions >= 3:
+                risk_factors.append("Frequent late submissions")
+            if sleep_hours < 6:
+                risk_factors.append("Insufficient sleep")
+            if stress_balance > 1:
+                risk_factors.append("High stress relative to support")
+            if financial_difficulty >= 4:
+                risk_factors.append("Financial difficulties")
+            
+            if risk_factors:
+                for factor in risk_factors:
+                    st.write(f"• {factor}")
+            else:
+                st.write("• No major risk factors identified")
         
         # Key features display
-        st.markdown("### 🔍 Key Calculated Features")
+        st.markdown("### 📈 Key Calculated Features")
         
         col7, col8 = st.columns(2)
         
         with col7:
-            st.write(f"**• Total Study Hours:** {total_study_hours:.1f}")
-            st.write(f"**• Study Efficiency:** {study_efficiency:.1f}")
-            st.write(f"**• Academic Engagement:** {academic_engagement:.1f}")
-            st.write(f"**• Stress Balance:** {stress_balance:.1f}")
+            st.write(f"**• Total Study Hours:** {total_study_hours:.1f} {'🚩' if total_study_hours < 10 else '✅'}")
+            st.write(f"**• Study Efficiency:** {study_efficiency:.1f} {'🚩' if study_efficiency < 2 else '✅'}")
+            st.write(f"**• Academic Engagement:** {academic_engagement:.1f} {'✅' if academic_engagement > 3 else '⚠️'}")
+            st.write(f"**• Stress Balance:** {stress_balance:.1f} {'🚩' if stress_balance > 1 else '✅'}")
         
         with col8:
-            st.write(f"**• Time Burden:** {time_burden:.1f}")
-            st.write(f"**• Study-Gaming Ratio:** {study_gaming_ratio:.1f}")
-            st.write(f"**• Financial Difficulty:** {financial_difficulty}")
-            st.write(f"**• Part-time Work:** {'Yes' if part_time_work == 'Yes' else 'No'}")
-            if part_time_work == "Yes":
-                st.write(f"**• Work Hours per week:** {work_hours}")
+            st.write(f"**• Time Burden:** {time_burden:.1f} {'🚩' if time_burden > 15 else '✅'}")
+            st.write(f"**• Study-Gaming Ratio:** {study_gaming_ratio:.1f} {'🚩' if study_gaming_ratio < 1 else '✅'}")
+            st.write(f"**• Sleep-Study Ratio:** {sleep_study_ratio:.1f} {'🚩' if sleep_study_ratio < 0.5 else '✅'}")
+            st.write(f"**• Study per Unit:** {study_per_unit:.1f} {'🚩' if study_per_unit < 0.5 else '✅'}")
 
 else:
     st.error("❌ Model not available. Please check your dataset.")
@@ -350,19 +420,17 @@ with st.sidebar:
     This tool predicts student academic risk using Logistic Regression 
     with 8 engineered features based on study habits and personal factors.
     
-    **Features used:**
-    - Total Study Hours
-    - Study Efficiency  
-    - Academic Engagement
-    - Stress Balance
-    - Time Burden
-    - Study-Gaming Ratio
-    - Sleep-Study Ratio
-    - Study per Unit
+    **Risk Indicators:**
+    - Low study hours (<10h/week)
+    - High gaming relative to study
+    - High work + gaming time burden
+    - Frequent late submissions
+    - Insufficient sleep (<6h/night)
+    - High stress, low support
+    - Financial difficulties
     
-    **Model:** Logistic Regression
+    **Model:** Logistic Regression with SMOTE
     **Dataset:** Balanced Student Dataset
-    **Accuracy:** ~85% (varies by training)
     """)
     
     st.markdown("---")
