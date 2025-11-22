@@ -1,25 +1,38 @@
-# 🎓 Student At-Risk Prediction System
+# Student Risk Prediction System
 
-A Streamlit web application that uses machine learning to identify students who may be at risk academically based on their study habits, extracurricular activities, and personal well-being.
+A machine learning web application that predicts student academic risk based on study habits and personal factors.
 
-## 🌟 Features
+## Features
+- Logistic Regression model
+- 8 engineered features
+- Real-time predictions
+- Interactive web interface
 
-- **Predictive Analytics**: Uses Logistic Regression to predict student risk status
-- **Comprehensive Assessment**: Analyzes 8 key engineered features
-- **User-Friendly Interface**: Simple form-based input system
-- **Real-time Results**: Instant prediction with confidence scores
-- **Model Transparency**: Shows performance metrics and feature importance
+## Live Demo
+[View on Streamlit Cloud](your-streamlit-link-here)
 
-## 🚀 Quick Start
+## Local Development
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 
-### Prerequisites
 
-- Python 3.8 or higher
-- pip (Python package manager)
+## Step 3: Upload to GitHub
 
-### Installation
+### Option A: Using GitHub Desktop (Easiest)
+1. Download [GitHub Desktop](https://desktop.github.com/)
+2. Clone your repository
+3. Copy your files into the folder
+4. Commit and push
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repository-url>
-   cd student-risk-prediction
+### Option B: Using Git Commands
+```bash
+# Clone your repository
+git clone https://github.com/your-username/student-risk-predictor.git
+cd student-risk-predictor
+
+# Copy your files here
+# Then:
+git add .
+git commit -m "Add Streamlit app"
+git push
