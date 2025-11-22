@@ -1,0 +1,501 @@
+Timestamp,Year Level (last semester),College (last semester),Sex,What was your General Weighted Average (GWA) for the most recent semester?,How many subjects have you failed in the most recent semester?,"Approximately, what was your attendance rate in classes last semester?",How many academic units were you enrolled in during the most recent (last) semester?,Part Time Job,"If you answered ""Yes"" to the question above, how many hours did you work per week?","On average, how many hours did you study on weekdays?","On average, how many hours did you study on weekends?","How often did you submit school requirements(e.g. Assignments, Projects) late?","On average, how many hours did you sleep per night?","On average, how many hours did you spend gaming per day?","Were you involved in extracurricular activities (e.g., student orgs, sports, volunteering)?","If you answered ""Yes"" to the question above, how many hours per week did you spend on extracurricular activities in the last semester?",Stress level,Financial Difficulty,Level of Social Support,Preferred Learning Style,At-Risk/Not At-Risk
+10/05/2025 07:00,4,college of business and management,female,3.04,0,81,21,yes,8,1.0,1.5,rarely,6.2,0.5,no,0,3,4,1,reading/writing,1
+10/23/2025 13:00,1,college of agriculture,prefer not to say,1.62,0,100,18,no,0,3.7,3.9,never,6.4,2.1,occasionally,6,3,3,3,kinesthetic,0
+11/06/2025 04:00,4,college of agriculture,female,4.0,0,77,18,no,0,3.0,3.4,often,6.2,0.3,no,0,5,3,1,kinesthetic,1
+11/20/2025 07:00,3,college of education,female,1.56,0,94,15,no,0,3.4,5.4,rarely,8.1,1.5,occasionally,2,1,3,5,auditory,0
+11/25/2025 19:00,4,college of arts and sciences,male,2.27,0,95,15,yes,12,2.6,4.2,never,7.1,2.1,occasionally,2,2,2,3,auditory,0
+10/10/2025 14:00,1,college of engineering,female,1.83,1,67,18,yes,8,2.4,1.3,never,4.5,0.1,occasionally,10,3,4,1,kinesthetic,1
+10/13/2025 00:00,1,college of forestry and environmental science,female,2.85,1,90,15,yes,8,2.7,0.9,rarely,5.3,1.9,regularly,10,3,2,4,auditory,1
+11/23/2025 00:00,1,college of agriculture,female,1.49,0,98,18,no,0,2.8,2.6,never,6.0,0.4,occasionally,6,3,1,5,reading/writing,0
+10/27/2025 10:00,4,college of information sciences and computing,female,2.15,0,95,18,no,0,3.0,2.5,never,7.4,0.2,heavily,2,3,1,3,auditory,0
+11/26/2025 09:00,2,college of nursing,prefer not to say,3.94,1,63,18,yes,8,1.5,1.3,sometimes,4.0,0.7,no,0,3,3,4,visual,1
+10/09/2025 21:00,4,college of forestry and environmental science,male,1.86,0,98,21,no,0,1.5,2.2,rarely,7.2,1.2,regularly,2,3,2,5,reading/writing,0
+11/06/2025 01:00,2,college of engineering,male,1.58,0,98,21,no,0,2.8,3.4,never,7.5,1.8,regularly,2,2,3,4,visual,0
+11/27/2025 13:00,3,college of engineering,female,3.92,3,83,21,yes,12,2.4,1.6,sometimes,7.0,0.3,occasionally,5,4,3,2,kinesthetic,1
+10/10/2025 05:00,2,college of nursing,prefer not to say,1.55,0,98,18,no,0,2.7,3.9,sometimes,6.5,0.9,regularly,4,2,1,5,reading/writing,0
+11/03/2025 20:00,1,college of agriculture,female,2.93,3,77,21,yes,12,2.2,0.6,sometimes,4.0,0.0,no,0,2,4,4,auditory,1
+11/30/2025 18:00,3,college of business and management,male,2.27,2,84,18,yes,12,0.8,1.8,never,5.9,1.7,no,0,3,2,2,kinesthetic,1
+10/25/2025 22:00,3,college of human ecology,male,2.22,1,61,18,no,0,0.5,1.4,often,6.5,0.9,no,0,2,3,5,auditory,1
+10/31/2025 00:00,3,college of agriculture,female,2.04,0,98,18,no,0,2.3,4.9,rarely,6.0,2.3,occasionally,2,2,2,4,reading/writing,0
+10/30/2025 23:00,3,college of education,male,2.9,2,70,15,yes,8,0.5,1.9,sometimes,4.4,1.6,no,0,3,4,2,reading/writing,1
+11/25/2025 18:00,1,college of human ecology,prefer not to say,2.41,1,90,15,yes,12,2.3,1.7,rarely,5.0,0.7,occasionally,2,4,3,2,kinesthetic,1
+10/23/2025 22:00,3,college of information sciences and computing,prefer not to say,2.77,2,87,15,yes,15,1.7,2.5,sometimes,6.3,1.2,regularly,2,4,3,4,visual,1
+11/26/2025 05:00,3,college of forestry and environmental science,female,3.13,1,62,18,no,0,1.9,2.0,rarely,5.3,1.4,heavily,5,5,1,1,auditory,1
+11/23/2025 04:00,1,college of agriculture,female,3.46,0,75,15,no,0,3.0,3.0,rarely,4.1,1.0,no,0,5,4,2,reading/writing,1
+10/21/2025 03:00,2,college of business and management,male,2.17,2,78,15,yes,8,0.5,4.1,sometimes,4.2,0.4,no,0,3,2,3,visual,1
+10/26/2025 09:00,3,college of arts and sciences,female,1.79,0,87,18,yes,8,2.6,4.3,sometimes,6.5,0.4,regularly,4,3,1,3,visual,0
+11/20/2025 20:00,1,college of forestry and environmental science,male,2.9,2,86,18,no,0,0.8,3.7,rarely,4.5,3.4,regularly,2,3,4,3,kinesthetic,1
+11/30/2025 13:00,1,college of arts and sciences,male,2.42,0,70,15,yes,12,1.8,2.8,rarely,6.4,1.2,no,0,5,4,2,kinesthetic,1
+11/16/2025 11:00,1,college of business and management,prefer not to say,1.85,0,85,18,yes,8,2.9,3.3,never,9.0,0.1,occasionally,4,1,3,3,auditory,0
+11/02/2025 20:00,2,college of nursing,male,1.66,0,95,21,no,0,3.5,2.4,rarely,6.9,0.0,no,0,3,2,4,reading/writing,0
+10/06/2025 18:00,1,college of forestry and environmental science,female,2.43,2,87,15,yes,12,1.3,1.6,never,5.7,2.4,regularly,2,5,4,2,reading/writing,1
+10/02/2025 06:00,2,college of agriculture,male,3.22,0,68,18,yes,12,1.2,3.2,rarely,5.9,0.0,regularly,10,2,4,2,kinesthetic,1
+11/11/2025 00:00,2,college of human ecology,prefer not to say,3.37,1,64,15,no,0,0.5,0.5,sometimes,6.6,1.2,occasionally,5,4,2,3,reading/writing,1
+10/22/2025 09:00,2,college of engineering,female,3.78,1,84,18,no,0,2.5,2.3,rarely,4.0,2.8,occasionally,8,3,3,4,reading/writing,1
+11/26/2025 14:00,3,college of agriculture,female,1.48,0,99,15,yes,8,3.0,3.6,never,6.8,1.0,occasionally,4,2,3,3,visual,0
+11/21/2025 01:00,4,college of forestry and environmental science,male,1.66,1,97,15,yes,8,2.9,2.5,rarely,6.6,0.4,no,0,1,2,5,kinesthetic,0
+11/18/2025 04:00,2,college of human ecology,prefer not to say,2.67,0,79,18,yes,15,2.7,2.1,rarely,5.1,1.7,regularly,2,5,3,5,auditory,1
+11/23/2025 23:00,1,college of arts and sciences,female,2.23,1,69,18,no,0,2.2,4.7,often,4.2,2.3,occasionally,2,4,1,5,auditory,1
+10/10/2025 21:00,4,college of arts and sciences,male,1.83,0,96,15,yes,8,3.0,4.6,never,6.0,0.8,regularly,4,3,2,4,auditory,0
+11/03/2025 09:00,4,college of education,male,2.27,0,91,18,no,0,2.2,4.5,rarely,6.8,2.3,regularly,2,1,2,5,auditory,0
+11/04/2025 20:00,3,college of education,female,2.44,0,88,21,no,0,3.8,2.0,never,6.6,0.2,regularly,6,1,2,5,visual,0
+10/18/2025 21:00,3,college of engineering,prefer not to say,3.11,1,86,15,yes,8,1.1,0.8,sometimes,4.0,1.1,regularly,2,3,3,4,kinesthetic,1
+10/22/2025 05:00,4,college of human ecology,female,2.24,1,93,21,no,0,3.8,5.7,never,6.4,0.9,regularly,4,2,1,4,auditory,0
+11/01/2025 21:00,3,college of business and management,male,2.98,1,81,18,no,0,1.4,2.5,sometimes,5.1,0.7,occasionally,5,2,2,5,auditory,1
+10/04/2025 07:00,2,college of education,prefer not to say,1.25,0,95,21,yes,8,1.5,2.4,rarely,7.0,2.5,regularly,2,1,2,5,kinesthetic,0
+11/23/2025 00:00,2,college of arts and sciences,male,1.48,0,88,18,yes,8,2.9,2.1,rarely,8.2,0.2,regularly,4,1,3,5,kinesthetic,0
+10/12/2025 19:00,2,college of engineering,male,1.96,1,100,18,no,0,2.8,3.3,never,7.9,1.1,regularly,4,4,2,5,auditory,0
+11/10/2025 03:00,1,college of agriculture,male,1.95,0,88,18,no,0,2.9,4.1,never,8.2,0.5,no,0,2,2,3,visual,0
+10/14/2025 17:00,2,college of human ecology,male,1.36,0,98,15,yes,8,1.9,2.5,never,7.8,0.6,regularly,4,4,1,4,auditory,0
+11/22/2025 21:00,4,college of engineering,male,3.59,2,66,21,no,0,1.7,0.5,rarely,4.8,2.7,no,0,4,2,2,auditory,1
+11/11/2025 16:00,4,college of forestry and environmental science,female,1.64,1,88,21,yes,8,2.9,3.1,sometimes,7.8,0.0,occasionally,2,3,2,5,kinesthetic,0
+10/11/2025 11:00,3,college of business and management,prefer not to say,1.88,0,86,15,no,0,2.5,3.3,never,6.6,0.1,occasionally,2,3,2,3,kinesthetic,0
+11/10/2025 17:00,1,college of information sciences and computing,prefer not to say,1.64,0,100,18,no,0,2.4,3.7,never,6.2,0.3,no,0,2,1,5,auditory,0
+11/28/2025 06:00,3,college of business and management,female,1.57,0,92,18,yes,8,1.1,1.4,never,7.0,1.3,occasionally,2,2,2,3,auditory,0
+10/20/2025 02:00,2,college of agriculture,male,2.81,2,65,21,no,0,3.2,2.1,often,6.0,2.9,no,0,2,4,4,reading/writing,1
+10/06/2025 15:00,1,college of agriculture,female,1.99,0,93,15,no,0,3.8,4.1,never,6.0,2.2,occasionally,2,2,2,3,auditory,0
+10/11/2025 05:00,1,college of information sciences and computing,prefer not to say,2.49,0,100,21,yes,8,1.0,3.7,never,6.0,0.3,no,0,3,4,4,visual,0
+10/29/2025 11:00,4,college of human ecology,prefer not to say,1.94,0,89,18,yes,8,2.8,4.0,never,6.6,3.3,no,0,4,1,4,reading/writing,0
+10/06/2025 20:00,4,college of agriculture,male,1.79,0,89,18,yes,12,3.8,1.0,never,7.7,0.6,no,0,1,3,5,kinesthetic,0
+11/24/2025 11:00,4,college of agriculture,male,1.88,0,97,18,yes,12,3.2,3.1,sometimes,7.9,1.8,occasionally,4,2,2,4,auditory,0
+10/10/2025 14:00,1,college of human ecology,female,2.05,0,93,18,no,0,3.7,4.8,never,7.0,0.6,no,0,2,1,4,kinesthetic,0
+10/12/2025 09:00,1,college of forestry and environmental science,prefer not to say,3.47,1,62,18,yes,8,2.3,1.2,sometimes,6.0,0.4,occasionally,8,4,3,1,kinesthetic,1
+11/13/2025 14:00,1,college of human ecology,male,3.69,0,72,18,no,0,3.2,1.4,sometimes,6.0,0.5,no,0,5,3,1,auditory,1
+10/14/2025 16:00,3,college of nursing,male,2.8,1,61,18,no,0,2.6,2.3,sometimes,5.4,0.1,no,0,4,2,4,auditory,1
+10/01/2025 09:00,3,college of business and management,female,2.52,3,86,18,no,0,1.7,5.4,sometimes,4.0,1.4,occasionally,2,3,2,3,reading/writing,1
+11/09/2025 19:00,4,college of human ecology,prefer not to say,2.0,0,86,18,no,0,2.8,3.8,rarely,6.9,0.4,occasionally,2,1,1,5,auditory,0
+10/15/2025 03:00,2,college of business and management,male,2.36,0,90,15,no,0,3.4,2.3,never,7.5,0.9,regularly,4,4,3,3,auditory,0
+11/18/2025 04:00,4,college of human ecology,prefer not to say,1.72,1,87,18,yes,15,0.5,2.3,sometimes,6.1,1.0,regularly,2,2,4,2,auditory,1
+11/06/2025 01:00,2,college of human ecology,prefer not to say,1.73,0,93,15,no,0,3.6,4.0,rarely,6.9,0.7,no,0,2,2,4,visual,0
+11/06/2025 07:00,3,college of information sciences and computing,female,1.42,0,97,18,yes,8,3.7,2.9,never,7.9,1.0,regularly,4,2,3,3,kinesthetic,0
+10/15/2025 17:00,4,college of agriculture,female,3.24,0,62,21,no,0,1.5,2.3,often,6.1,0.9,no,0,4,4,2,kinesthetic,1
+11/05/2025 01:00,4,college of arts and sciences,female,2.61,1,88,15,no,0,1.5,3.8,sometimes,6.2,4.3,no,0,3,1,1,visual,1
+10/17/2025 04:00,3,college of agriculture,female,3.52,0,63,18,no,0,1.6,2.2,sometimes,4.4,2.2,no,0,3,4,2,visual,1
+11/21/2025 09:00,2,college of education,prefer not to say,2.43,1,73,21,yes,8,3.0,1.8,sometimes,5.8,2.1,regularly,2,2,4,3,auditory,1
+11/05/2025 23:00,4,college of engineering,prefer not to say,1.3,1,81,18,no,0,4.1,0.5,often,4.0,0.4,no,0,4,3,1,reading/writing,1
+11/03/2025 06:00,2,college of education,male,2.36,1,80,18,yes,15,2.5,3.1,sometimes,6.2,3.1,occasionally,5,5,2,3,auditory,1
+10/28/2025 09:00,3,college of human ecology,prefer not to say,2.4,0,80,15,yes,15,1.7,1.2,often,8.1,0.7,occasionally,5,3,5,5,visual,1
+10/29/2025 05:00,2,college of arts and sciences,male,2.85,2,85,15,yes,12,0.5,3.0,rarely,4.9,6.4,no,0,5,2,2,auditory,1
+11/21/2025 04:00,1,college of forestry and environmental science,prefer not to say,1.86,0,88,18,no,0,2.5,3.6,sometimes,6.7,0.5,heavily,2,2,2,3,visual,0
+10/04/2025 19:00,3,college of nursing,male,2.72,2,69,15,yes,12,1.6,1.8,rarely,4.7,0.9,regularly,2,3,4,3,reading/writing,1
+10/01/2025 13:00,1,college of business and management,female,2.72,2,73,15,no,0,2.6,3.2,sometimes,4.0,0.9,occasionally,8,3,2,2,reading/writing,1
+10/21/2025 14:00,1,college of business and management,male,1.83,0,91,21,no,0,3.6,4.0,never,7.2,0.7,regularly,2,3,2,3,kinesthetic,0
+10/09/2025 19:00,1,college of agriculture,prefer not to say,1.99,0,95,21,no,0,3.5,3.5,rarely,6.3,1.3,regularly,4,3,2,4,auditory,0
+11/04/2025 12:00,3,college of business and management,prefer not to say,2.08,1,80,15,yes,15,1.6,3.7,rarely,8.2,1.5,occasionally,2,2,4,4,reading/writing,1
+11/05/2025 22:00,4,college of arts and sciences,female,2.01,0,95,15,yes,8,2.9,2.6,never,7.9,2.3,no,0,3,4,5,kinesthetic,0
+10/30/2025 13:00,1,college of forestry and environmental science,female,2.33,1,81,15,yes,8,0.5,0.5,sometimes,6.1,3.2,regularly,2,5,2,1,reading/writing,1
+10/25/2025 15:00,1,college of information sciences and computing,female,1.96,0,85,18,yes,8,3.7,2.9,rarely,7.3,0.1,occasionally,4,1,2,4,visual,0
+10/13/2025 20:00,4,college of nursing,male,1.89,1,95,15,no,0,1.6,2.2,never,7.6,2.6,occasionally,4,2,2,4,auditory,0
+10/02/2025 00:00,2,college of engineering,female,2.9,0,82,21,yes,15,2.6,1.0,sometimes,6.9,0.3,heavily,2,4,1,3,reading/writing,1
+10/06/2025 03:00,4,college of business and management,male,2.94,1,72,18,no,0,0.5,2.6,sometimes,6.5,0.3,occasionally,2,3,3,4,visual,1
+10/19/2025 20:00,3,college of information sciences and computing,male,3.32,2,65,15,yes,12,1.9,2.2,sometimes,5.9,2.4,no,0,3,2,5,kinesthetic,1
+10/08/2025 20:00,3,college of information sciences and computing,male,2.58,1,82,18,yes,15,2.4,3.9,sometimes,7.4,7.1,occasionally,2,4,3,2,reading/writing,1
+10/01/2025 16:00,2,college of education,male,2.52,1,86,18,yes,12,1.5,2.5,often,5.5,2.0,no,0,2,2,2,reading/writing,1
+10/04/2025 13:00,2,college of arts and sciences,prefer not to say,3.54,1,72,15,yes,8,1.5,2.3,rarely,7.5,0.6,no,0,2,3,2,kinesthetic,1
+11/19/2025 10:00,2,college of engineering,prefer not to say,3.35,1,64,15,yes,12,1.3,2.3,often,5.9,0.2,no,0,2,4,4,auditory,1
+11/14/2025 06:00,1,college of arts and sciences,female,2.24,1,80,15,no,0,2.9,1.6,often,6.5,1.5,no,0,4,2,2,kinesthetic,1
+11/12/2025 20:00,2,college of engineering,prefer not to say,2.82,0,69,18,no,0,1.0,2.8,sometimes,4.7,5.1,no,0,4,5,3,auditory,1
+11/15/2025 16:00,1,college of agriculture,male,1.66,0,93,18,no,0,3.2,2.1,rarely,6.0,0.1,heavily,4,3,4,4,reading/writing,0
+11/06/2025 12:00,4,college of agriculture,male,1.55,0,95,15,no,0,2.6,4.2,never,7.5,1.2,occasionally,2,1,2,4,kinesthetic,0
+11/15/2025 01:00,4,college of human ecology,male,2.41,3,85,18,no,0,0.5,2.8,often,7.1,3.5,no,0,3,4,4,auditory,1
+11/13/2025 07:00,4,college of engineering,prefer not to say,1.66,0,86,18,no,0,2.9,2.4,never,6.0,0.7,heavily,2,3,1,4,auditory,0
+10/10/2025 05:00,2,college of business and management,prefer not to say,2.34,0,88,18,no,0,3.5,2.9,never,7.5,0.1,regularly,2,2,2,4,visual,0
+11/17/2025 18:00,3,college of education,female,2.79,1,76,18,no,0,1.5,3.2,sometimes,4.0,3.4,no,0,4,3,2,auditory,1
+11/23/2025 11:00,2,college of information sciences and computing,male,1.83,0,96,21,no,0,2.8,3.6,rarely,6.0,2.3,occasionally,2,1,3,5,reading/writing,0
+11/10/2025 17:00,2,college of information sciences and computing,male,2.14,1,87,18,yes,15,0.5,2.4,sometimes,8.5,0.6,no,0,5,3,4,auditory,1
+10/21/2025 17:00,1,college of human ecology,male,2.07,1,72,15,yes,15,2.0,3.5,sometimes,7.0,1.0,no,0,4,1,4,kinesthetic,1
+10/05/2025 14:00,3,college of agriculture,prefer not to say,1.66,1,93,18,no,0,3.9,3.6,sometimes,6.1,1.9,no,0,2,2,3,auditory,0
+11/12/2025 21:00,3,college of engineering,male,2.83,0,88,18,yes,12,1.5,1.3,often,4.7,0.2,no,0,5,3,1,reading/writing,1
+11/15/2025 03:00,3,college of forestry and environmental science,female,1.98,0,98,18,no,0,3.1,3.1,never,7.2,2.1,occasionally,2,1,2,3,kinesthetic,0
+10/25/2025 02:00,3,college of arts and sciences,prefer not to say,2.84,1,85,21,yes,12,0.5,1.1,sometimes,5.3,0.4,occasionally,8,4,4,1,reading/writing,1
+10/17/2025 15:00,4,college of human ecology,male,1.88,0,96,15,no,0,2.3,4.1,never,6.0,2.5,occasionally,4,1,1,5,kinesthetic,0
+10/18/2025 01:00,1,college of agriculture,prefer not to say,1.91,0,86,15,no,0,2.5,3.6,never,6.9,0.2,no,0,3,3,5,auditory,0
+10/30/2025 20:00,3,college of education,female,3.32,3,80,18,yes,20,0.5,2.1,often,7.8,4.7,occasionally,2,5,4,2,kinesthetic,1
+11/10/2025 10:00,4,college of information sciences and computing,female,2.9,1,66,18,yes,8,1.5,2.4,rarely,6.9,5.2,regularly,2,5,4,1,kinesthetic,1
+10/20/2025 09:00,2,college of information sciences and computing,prefer not to say,1.38,0,95,18,no,0,2.7,3.2,never,6.4,0.6,heavily,4,1,1,4,auditory,0
+10/05/2025 18:00,2,college of engineering,male,3.64,0,78,21,no,0,1.5,2.5,sometimes,5.8,0.6,regularly,2,5,4,3,reading/writing,1
+10/16/2025 23:00,1,college of arts and sciences,female,3.78,2,63,18,no,0,0.7,2.6,sometimes,4.6,2.3,no,0,3,4,1,kinesthetic,1
+10/25/2025 15:00,4,college of education,male,1.73,1,95,15,no,0,3.0,3.7,rarely,6.0,0.3,regularly,4,2,2,4,kinesthetic,0
+11/23/2025 03:00,2,college of forestry and environmental science,prefer not to say,1.79,0,98,18,no,0,3.2,3.3,rarely,7.3,0.2,occasionally,2,1,1,5,kinesthetic,0
+10/22/2025 05:00,4,college of agriculture,prefer not to say,1.64,0,95,18,no,0,2.5,3.2,rarely,6.0,0.2,regularly,4,3,2,3,kinesthetic,0
+11/19/2025 16:00,4,college of human ecology,female,1.73,0,98,18,no,0,2.4,2.6,rarely,6.3,1.3,heavily,2,2,2,3,visual,0
+10/31/2025 15:00,1,college of information sciences and computing,female,2.56,0,93,18,yes,12,2.1,2.5,never,7.8,1.4,regularly,2,4,3,4,kinesthetic,0
+10/28/2025 21:00,2,college of arts and sciences,female,1.33,0,95,21,no,0,3.5,2.2,rarely,8.4,0.4,occasionally,2,4,1,5,kinesthetic,0
+11/13/2025 10:00,3,college of information sciences and computing,prefer not to say,2.88,1,90,15,yes,12,1.4,2.7,rarely,6.6,2.2,regularly,8,4,3,3,auditory,1
+10/24/2025 22:00,2,college of forestry and environmental science,female,1.88,0,89,18,no,0,2.1,5.9,never,7.1,0.8,heavily,6,1,1,3,visual,0
+10/16/2025 16:00,3,college of education,female,2.16,0,95,21,yes,12,1.3,2.4,never,7.3,2.0,regularly,2,2,2,5,auditory,0
+11/16/2025 04:00,1,college of information sciences and computing,prefer not to say,1.99,0,95,18,no,0,4.7,3.2,sometimes,7.2,2.5,regularly,2,4,4,4,visual,0
+10/09/2025 10:00,4,college of arts and sciences,prefer not to say,3.3,1,73,18,yes,8,1.9,1.8,never,5.1,0.8,no,0,5,5,4,kinesthetic,1
+11/13/2025 06:00,3,college of information sciences and computing,prefer not to say,2.23,0,85,18,yes,8,2.7,4.0,rarely,6.0,0.3,regularly,6,3,3,3,reading/writing,0
+10/09/2025 16:00,3,college of arts and sciences,prefer not to say,1.6,0,95,15,no,0,2.6,2.9,sometimes,6.3,0.7,occasionally,2,2,2,5,visual,0
+11/28/2025 11:00,4,college of nursing,prefer not to say,2.16,3,70,18,no,0,1.5,1.5,sometimes,5.3,0.1,no,0,3,3,1,auditory,1
+11/16/2025 05:00,4,college of nursing,prefer not to say,1.98,0,97,18,no,0,4.8,2.5,never,6.5,0.6,regularly,2,2,2,4,auditory,0
+11/19/2025 04:00,3,college of education,female,1.5,1,87,18,no,0,3.4,3.0,never,6.4,0.7,occasionally,4,4,2,3,visual,0
+10/22/2025 20:00,1,college of human ecology,prefer not to say,3.38,1,66,15,yes,15,2.8,0.8,sometimes,4.8,3.7,regularly,2,4,3,2,reading/writing,1
+11/19/2025 23:00,4,college of engineering,female,3.03,1,74,18,yes,8,1.8,3.0,often,5.8,0.8,occasionally,5,5,1,1,visual,1
+11/21/2025 07:00,1,college of engineering,female,1.89,0,89,18,no,0,4.7,4.4,never,6.7,0.0,occasionally,2,2,1,3,reading/writing,0
+10/02/2025 21:00,4,college of agriculture,male,1.59,0,86,21,no,0,3.5,2.8,rarely,7.2,2.3,regularly,2,3,1,3,auditory,0
+10/20/2025 07:00,1,college of education,female,1.61,0,100,15,no,0,4.4,4.2,never,6.6,0.3,regularly,4,1,1,3,auditory,0
+11/12/2025 03:00,3,college of forestry and environmental science,female,1.89,0,95,18,yes,8,2.7,3.0,never,6.8,2.8,regularly,6,3,2,4,kinesthetic,0
+11/12/2025 17:00,3,college of engineering,male,1.91,0,88,18,yes,8,2.0,3.4,never,8.2,0.4,regularly,4,2,1,5,kinesthetic,0
+11/18/2025 17:00,1,college of human ecology,female,3.26,1,75,21,no,0,0.5,3.6,sometimes,4.0,0.6,no,0,4,3,2,visual,1
+11/16/2025 21:00,3,college of human ecology,prefer not to say,1.72,1,86,21,no,0,2.0,5.1,never,6.0,0.1,regularly,2,3,2,3,visual,0
+10/27/2025 10:00,3,college of agriculture,prefer not to say,1.5,0,88,18,no,0,2.4,3.5,never,7.2,2.9,no,0,3,2,5,reading/writing,0
+11/15/2025 15:00,4,college of agriculture,prefer not to say,2.33,1,89,18,no,0,1.2,2.0,rarely,4.9,4.5,no,0,3,2,2,reading/writing,1
+10/29/2025 19:00,4,college of nursing,prefer not to say,2.06,0,99,15,no,0,3.1,5.7,never,6.4,2.5,heavily,6,1,2,4,visual,0
+10/06/2025 15:00,2,college of forestry and environmental science,male,4.0,2,84,18,yes,12,0.9,3.7,often,5.7,2.4,no,0,5,3,3,auditory,1
+10/04/2025 16:00,4,college of human ecology,prefer not to say,2.58,0,71,15,no,0,0.7,0.6,rarely,6.9,7.5,occasionally,5,4,1,2,kinesthetic,1
+10/25/2025 18:00,2,college of agriculture,male,1.59,0,85,18,no,0,2.7,3.1,rarely,6.0,2.8,regularly,2,2,4,5,auditory,0
+11/25/2025 05:00,1,college of human ecology,female,1.98,0,93,15,yes,8,3.4,3.8,never,7.4,0.3,occasionally,4,2,3,4,kinesthetic,0
+11/05/2025 02:00,3,college of business and management,male,2.7,2,90,15,yes,15,2.2,2.7,rarely,4.0,1.2,no,0,4,2,2,reading/writing,1
+11/06/2025 19:00,4,college of engineering,female,3.05,2,79,15,no,0,1.6,3.0,never,7.8,1.4,heavily,5,4,4,4,kinesthetic,1
+10/10/2025 08:00,2,college of arts and sciences,prefer not to say,2.24,0,93,18,no,0,2.8,3.6,never,6.0,0.4,heavily,2,2,3,5,visual,0
+11/20/2025 15:00,2,college of agriculture,male,1.77,0,88,21,no,0,2.8,4.1,never,7.6,1.0,occasionally,4,1,2,3,kinesthetic,0
+11/02/2025 17:00,4,college of human ecology,male,1.99,0,98,18,no,0,2.3,2.4,never,7.4,0.3,regularly,4,2,1,5,auditory,0
+10/30/2025 10:00,1,college of education,female,2.04,0,88,15,yes,8,3.6,2.9,sometimes,7.8,2.1,regularly,2,1,3,5,kinesthetic,0
+10/08/2025 14:00,3,college of arts and sciences,female,3.38,0,83,15,yes,20,1.8,1.4,rarely,7.6,0.2,occasionally,2,4,2,2,auditory,1
+10/07/2025 20:00,4,college of nursing,male,2.67,2,62,15,yes,8,1.3,2.3,sometimes,6.5,4.4,no,0,5,4,3,visual,1
+11/24/2025 07:00,1,college of information sciences and computing,female,1.87,0,96,15,no,0,1.5,2.0,rarely,6.6,1.2,regularly,2,3,2,3,reading/writing,0
+10/23/2025 14:00,3,college of engineering,female,1.39,0,90,15,no,0,2.4,3.5,never,8.4,1.8,regularly,2,2,3,3,visual,0
+10/11/2025 08:00,2,college of education,female,2.87,2,68,18,yes,15,0.5,2.9,often,4.7,1.3,no,0,5,1,3,kinesthetic,1
+11/24/2025 17:00,3,college of engineering,female,1.56,0,88,18,no,0,2.9,4.0,rarely,7.7,0.9,regularly,6,1,1,3,auditory,0
+10/13/2025 00:00,4,college of business and management,female,1.92,0,91,18,no,0,3.0,2.0,sometimes,6.9,2.1,regularly,2,1,1,4,reading/writing,0
+11/29/2025 04:00,4,college of forestry and environmental science,prefer not to say,2.14,1,75,21,no,0,1.5,3.7,rarely,5.7,0.7,no,0,3,3,3,visual,1
+11/12/2025 23:00,3,college of business and management,female,1.5,1,84,18,yes,15,2.2,1.5,rarely,5.4,0.4,no,0,2,4,2,reading/writing,1
+11/27/2025 17:00,1,college of nursing,male,1.79,0,89,18,yes,8,1.6,4.1,never,7.6,0.5,occasionally,2,4,2,4,reading/writing,0
+10/12/2025 16:00,1,college of engineering,female,2.91,1,79,15,yes,12,2.3,0.5,often,6.3,3.1,occasionally,8,4,4,4,kinesthetic,1
+10/12/2025 07:00,2,college of education,male,2.78,0,78,18,no,0,2.1,1.2,sometimes,6.0,0.7,regularly,8,3,3,2,auditory,1
+10/06/2025 07:00,3,college of arts and sciences,male,1.75,0,86,15,no,0,3.3,5.4,rarely,7.1,0.1,occasionally,4,1,2,4,visual,0
+10/19/2025 13:00,2,college of human ecology,male,1.62,1,93,21,no,0,2.8,2.9,never,8.5,0.1,regularly,4,2,1,4,visual,0
+11/02/2025 00:00,1,college of forestry and environmental science,male,3.77,3,68,18,yes,15,2.2,1.7,often,4.4,1.2,regularly,5,4,1,4,kinesthetic,1
+10/11/2025 12:00,3,college of business and management,prefer not to say,1.72,0,100,18,yes,12,3.1,4.5,never,7.1,1.1,heavily,4,3,3,4,kinesthetic,0
+10/12/2025 15:00,2,college of business and management,female,1.96,0,93,18,no,0,3.2,3.8,never,7.3,0.3,occasionally,4,2,2,5,reading/writing,0
+11/19/2025 07:00,2,college of business and management,prefer not to say,1.82,0,98,15,yes,8,3.4,1.3,never,8.2,0.1,occasionally,2,2,2,5,auditory,0
+10/18/2025 06:00,1,college of nursing,female,1.52,0,72,18,yes,12,4.0,3.1,sometimes,5.8,1.4,no,0,2,1,3,reading/writing,1
+10/12/2025 04:00,4,college of business and management,male,1.35,0,97,15,no,0,4.1,5.1,sometimes,6.8,0.4,regularly,2,3,2,3,kinesthetic,0
+10/16/2025 01:00,2,college of arts and sciences,male,1.77,0,95,18,yes,12,1.7,2.4,never,6.0,0.8,heavily,2,4,3,4,visual,0
+10/10/2025 22:00,3,college of engineering,male,1.64,1,98,18,no,0,3.8,2.8,sometimes,6.0,0.1,no,0,1,3,3,kinesthetic,0
+11/19/2025 01:00,2,college of business and management,female,2.46,1,65,18,yes,12,1.6,3.5,rarely,7.9,0.4,occasionally,10,4,2,1,auditory,1
+10/14/2025 05:00,3,college of agriculture,female,1.85,0,86,18,no,0,2.9,3.5,rarely,7.3,0.7,regularly,2,1,2,4,visual,0
+10/31/2025 10:00,2,college of information sciences and computing,female,1.87,0,100,21,no,0,3.6,2.0,never,7.9,0.3,regularly,2,4,1,5,visual,0
+11/17/2025 18:00,2,college of arts and sciences,female,2.73,1,68,18,yes,8,1.8,1.1,rarely,5.0,1.2,occasionally,8,4,3,4,auditory,1
+10/08/2025 14:00,1,college of forestry and environmental science,male,2.79,1,71,18,yes,8,0.9,0.5,rarely,6.6,0.2,no,0,4,3,5,reading/writing,1
+10/31/2025 09:00,1,college of information sciences and computing,prefer not to say,1.85,0,89,15,no,0,1.9,3.9,never,7.5,3.9,regularly,2,2,4,4,visual,0
+10/18/2025 09:00,2,college of agriculture,prefer not to say,2.98,1,72,15,yes,8,0.9,1.6,sometimes,6.9,0.7,no,0,5,3,4,visual,1
+11/05/2025 14:00,2,college of forestry and environmental science,male,3.4,1,74,18,no,0,0.5,4.7,sometimes,5.3,1.5,occasionally,2,3,3,4,reading/writing,1
+10/22/2025 13:00,2,college of information sciences and computing,male,1.51,2,70,15,yes,20,0.9,1.8,sometimes,4.3,0.7,no,0,4,2,5,visual,1
+11/05/2025 17:00,4,college of engineering,male,2.16,0,87,18,no,0,2.7,2.0,rarely,6.2,0.0,occasionally,4,3,2,5,visual,0
+10/31/2025 23:00,1,college of information sciences and computing,prefer not to say,2.72,1,85,18,no,0,0.6,1.9,sometimes,4.5,0.6,occasionally,2,4,5,1,auditory,1
+10/18/2025 19:00,3,college of information sciences and computing,prefer not to say,1.67,0,99,18,no,0,3.1,4.9,rarely,6.0,0.1,regularly,4,2,3,4,visual,0
+11/10/2025 01:00,1,college of human ecology,female,1.79,0,90,18,yes,12,3.0,1.9,rarely,7.3,0.1,occasionally,2,2,2,3,visual,0
+10/18/2025 02:00,3,college of engineering,prefer not to say,1.7,1,89,18,no,0,2.7,2.1,rarely,6.4,1.8,regularly,2,3,3,5,kinesthetic,0
+10/08/2025 22:00,2,college of business and management,prefer not to say,3.19,2,75,18,yes,15,1.7,2.0,sometimes,5.0,1.2,no,0,3,2,4,kinesthetic,1
+10/26/2025 15:00,2,college of human ecology,female,3.27,0,83,18,yes,15,1.1,1.2,rarely,5.5,4.5,heavily,8,5,4,3,reading/writing,1
+10/07/2025 22:00,2,college of business and management,female,2.69,1,84,18,yes,8,2.6,1.4,often,4.5,0.5,occasionally,10,2,4,2,auditory,1
+10/21/2025 10:00,3,college of agriculture,prefer not to say,2.64,1,68,21,no,0,1.6,2.1,often,5.5,2.8,occasionally,5,3,4,1,visual,1
+11/08/2025 15:00,3,college of arts and sciences,prefer not to say,2.29,0,100,15,no,0,1.9,2.0,rarely,7.0,1.8,no,0,3,1,5,kinesthetic,0
+11/03/2025 08:00,4,college of arts and sciences,prefer not to say,1.73,0,96,18,no,0,2.5,2.5,rarely,6.8,0.7,no,0,1,1,4,visual,0
+11/13/2025 17:00,1,college of human ecology,prefer not to say,1.9,0,94,21,yes,12,2.2,3.6,rarely,8.8,1.1,no,0,2,1,3,reading/writing,0
+11/22/2025 17:00,4,college of agriculture,male,1.83,0,91,15,no,0,2.4,3.5,never,7.4,1.1,occasionally,4,2,2,4,reading/writing,0
+11/08/2025 12:00,4,college of engineering,female,1.27,0,99,18,no,0,4.2,4.2,rarely,7.0,0.4,regularly,2,1,1,4,visual,0
+11/10/2025 14:00,1,college of engineering,female,2.08,2,70,18,yes,15,1.9,3.2,sometimes,4.8,1.9,occasionally,2,4,4,2,kinesthetic,1
+10/02/2025 15:00,4,college of education,prefer not to say,2.15,2,89,15,yes,8,1.2,0.9,rarely,5.2,0.8,no,0,3,4,4,reading/writing,1
+10/20/2025 05:00,2,college of business and management,female,1.82,0,89,15,yes,12,2.0,4.0,never,6.9,0.8,regularly,4,3,3,4,reading/writing,0
+11/04/2025 17:00,4,college of nursing,female,2.04,0,94,15,no,0,3.3,2.5,never,7.0,0.5,no,0,2,4,5,visual,0
+11/07/2025 23:00,4,college of business and management,female,1.63,0,89,15,no,0,2.6,3.5,never,6.6,0.9,regularly,2,4,1,5,auditory,0
+11/03/2025 21:00,4,college of education,male,1.72,0,88,21,no,0,2.1,6.1,never,7.0,0.1,occasionally,4,1,2,5,visual,0
+10/20/2025 08:00,4,college of engineering,male,1.79,0,99,18,no,0,3.5,3.5,rarely,7.0,0.9,no,0,2,4,4,reading/writing,0
+10/09/2025 13:00,3,college of forestry and environmental science,female,1.87,0,91,15,no,0,4.3,3.4,never,7.2,0.4,regularly,6,3,4,4,auditory,0
+10/01/2025 15:00,4,college of nursing,male,2.07,0,92,18,no,0,3.2,4.3,rarely,7.5,0.1,regularly,2,1,4,5,reading/writing,0
+10/14/2025 23:00,1,college of human ecology,prefer not to say,3.18,1,65,18,no,0,2.3,0.5,sometimes,4.8,1.4,no,0,4,3,2,reading/writing,1
+10/10/2025 20:00,3,college of forestry and environmental science,female,3.32,1,90,15,no,0,1.2,2.0,sometimes,5.8,2.5,occasionally,2,5,3,2,visual,1
+10/03/2025 04:00,2,college of nursing,prefer not to say,3.64,1,88,18,yes,8,2.2,2.1,rarely,4.7,6.4,occasionally,5,2,4,3,auditory,1
+10/30/2025 09:00,2,college of information sciences and computing,prefer not to say,1.97,0,94,18,no,0,3.2,6.6,sometimes,7.9,0.5,occasionally,6,2,2,5,auditory,0
+10/30/2025 05:00,4,college of agriculture,prefer not to say,2.57,3,82,18,yes,15,1.3,1.4,sometimes,4.3,2.6,no,0,4,5,3,visual,1
+10/16/2025 19:00,2,college of agriculture,male,2.79,1,85,15,yes,8,1.9,2.2,rarely,7.1,1.5,no,0,4,2,2,visual,1
+11/03/2025 00:00,4,college of arts and sciences,prefer not to say,3.11,2,73,15,yes,15,1.0,2.0,rarely,8.1,3.9,no,0,3,2,3,visual,1
+11/21/2025 20:00,4,college of forestry and environmental science,male,2.83,2,67,21,yes,8,1.7,3.5,sometimes,6.1,1.3,regularly,2,4,2,1,kinesthetic,1
+10/22/2025 05:00,1,college of forestry and environmental science,female,3.17,0,81,21,yes,20,3.1,2.0,rarely,4.6,2.4,occasionally,10,3,3,3,reading/writing,1
+11/14/2025 03:00,1,college of nursing,female,1.91,0,98,15,no,0,2.7,3.5,never,8.0,2.7,occasionally,2,3,3,3,reading/writing,0
+11/01/2025 12:00,1,college of forestry and environmental science,prefer not to say,3.07,1,77,21,no,0,4.0,1.4,often,6.6,0.0,no,0,3,4,2,visual,1
+11/04/2025 17:00,4,college of engineering,female,1.49,0,91,18,no,0,3.6,3.7,never,6.5,3.0,regularly,2,2,3,4,kinesthetic,0
+11/14/2025 03:00,3,college of forestry and environmental science,prefer not to say,2.51,1,87,15,yes,8,0.6,2.1,sometimes,4.0,2.4,no,0,2,3,3,auditory,1
+10/06/2025 20:00,4,college of agriculture,male,2.85,0,69,18,yes,12,0.5,2.9,rarely,5.9,0.1,no,0,5,4,2,auditory,1
+11/09/2025 17:00,4,college of human ecology,female,1.88,0,93,18,yes,12,3.1,1.8,never,6.0,0.6,regularly,4,3,2,4,auditory,0
+11/23/2025 19:00,3,college of business and management,prefer not to say,1.97,1,87,15,no,0,3.9,4.3,never,7.4,1.9,occasionally,6,1,3,4,reading/writing,0
+11/23/2025 02:00,3,college of information sciences and computing,female,1.65,0,93,18,no,0,2.7,3.9,never,6.7,0.8,occasionally,2,2,2,5,auditory,0
+11/25/2025 06:00,4,college of human ecology,female,3.25,0,73,18,yes,12,1.8,3.3,sometimes,6.3,4.4,occasionally,2,4,1,5,kinesthetic,1
+11/23/2025 08:00,2,college of forestry and environmental science,male,1.66,0,87,18,no,0,1.5,2.0,rarely,7.6,1.0,regularly,4,3,1,3,auditory,0
+10/11/2025 23:00,3,college of human ecology,prefer not to say,2.72,1,87,15,no,0,2.8,4.1,rarely,7.1,0.3,regularly,5,4,4,2,reading/writing,1
+10/30/2025 00:00,4,college of nursing,male,2.7,1,71,18,yes,15,1.5,0.9,sometimes,4.0,1.5,no,0,4,3,3,auditory,1
+11/03/2025 16:00,3,college of nursing,female,1.19,1,100,21,yes,12,2.6,2.3,rarely,7.7,0.6,no,0,3,1,4,reading/writing,0
+11/03/2025 12:00,3,college of nursing,female,1.41,1,95,18,no,0,3.5,3.9,rarely,6.2,1.1,regularly,2,2,4,3,auditory,0
+10/05/2025 03:00,4,college of forestry and environmental science,male,1.79,0,92,18,yes,8,2.3,3.3,never,6.3,0.8,no,0,3,2,4,kinesthetic,0
+11/12/2025 15:00,2,college of nursing,male,2.24,0,75,15,yes,20,1.7,3.0,rarely,6.1,0.5,no,0,2,4,2,visual,1
+11/10/2025 05:00,4,college of engineering,female,1.64,0,99,18,no,0,3.1,2.3,rarely,7.3,0.0,regularly,4,2,1,4,kinesthetic,0
+10/04/2025 20:00,3,college of agriculture,male,3.2,1,70,18,no,0,3.0,2.4,sometimes,4.0,0.2,no,0,4,2,1,kinesthetic,1
+10/17/2025 06:00,1,college of education,prefer not to say,3.25,0,90,18,no,0,2.1,3.8,rarely,7.4,1.8,no,0,5,1,3,reading/writing,1
+10/08/2025 18:00,4,college of engineering,male,3.12,2,76,21,no,0,2.6,1.5,sometimes,4.0,1.3,no,0,5,1,2,kinesthetic,1
+11/06/2025 08:00,1,college of nursing,female,1.75,1,93,21,yes,12,2.2,2.0,never,6.0,1.2,regularly,4,3,2,4,auditory,0
+11/03/2025 05:00,2,college of business and management,prefer not to say,2.03,0,99,15,no,0,2.3,4.4,never,8.1,1.0,occasionally,2,3,1,4,reading/writing,0
+10/10/2025 03:00,2,college of human ecology,female,1.18,0,88,18,no,0,4.4,3.7,never,6.9,0.4,occasionally,2,1,2,5,kinesthetic,0
+11/23/2025 13:00,4,college of agriculture,prefer not to say,2.98,2,78,15,no,0,0.5,2.8,sometimes,5.5,1.0,no,0,4,3,2,auditory,1
+10/12/2025 07:00,3,college of business and management,prefer not to say,1.88,0,96,21,no,0,3.8,5.2,never,7.8,0.2,heavily,4,2,2,4,kinesthetic,0
+11/08/2025 13:00,1,college of engineering,female,2.61,1,61,18,yes,12,0.9,3.1,rarely,5.5,0.7,no,0,3,4,2,auditory,1
+10/08/2025 07:00,2,college of engineering,female,2.02,0,92,18,yes,12,2.6,2.9,never,6.8,0.1,no,0,2,2,3,reading/writing,0
+11/15/2025 18:00,2,college of arts and sciences,male,3.53,2,69,18,yes,15,2.0,1.8,often,4.3,0.7,occasionally,5,2,1,2,reading/writing,1
+10/22/2025 19:00,2,college of business and management,prefer not to say,1.34,0,96,21,yes,8,3.5,3.3,never,6.4,0.4,occasionally,2,2,1,3,reading/writing,0
+10/05/2025 10:00,1,college of forestry and environmental science,prefer not to say,1.5,0,93,18,no,0,2.0,4.7,sometimes,7.6,2.1,occasionally,4,1,2,5,reading/writing,0
+11/20/2025 00:00,1,college of agriculture,male,1.6,0,92,18,no,0,3.2,3.8,never,6.4,0.8,occasionally,4,2,3,3,auditory,0
+11/04/2025 00:00,4,college of arts and sciences,male,3.8,1,75,18,yes,15,1.8,1.3,never,5.4,4.3,no,0,4,4,2,visual,1
+10/24/2025 17:00,2,college of human ecology,male,1.0,0,87,15,yes,12,3.4,4.2,sometimes,6.0,0.5,occasionally,4,3,2,4,visual,0
+11/05/2025 01:00,3,college of information sciences and computing,female,2.46,0,84,18,no,0,1.6,0.5,sometimes,4.5,2.0,no,0,4,3,3,kinesthetic,1
+10/28/2025 09:00,4,college of nursing,male,2.21,1,75,18,yes,12,2.3,1.0,never,5.2,1.4,occasionally,2,3,3,2,visual,1
+10/31/2025 23:00,3,college of information sciences and computing,male,2.64,1,86,21,yes,8,2.8,2.6,never,5.1,0.2,no,0,3,3,3,kinesthetic,1
+10/03/2025 05:00,3,college of information sciences and computing,male,1.88,0,97,15,no,0,2.0,2.4,never,7.8,0.3,regularly,6,3,1,5,auditory,0
+11/05/2025 19:00,2,college of arts and sciences,male,3.13,0,73,15,no,0,0.8,2.3,never,4.0,2.2,no,0,3,3,3,kinesthetic,1
+11/16/2025 21:00,2,college of information sciences and computing,male,3.58,1,64,15,no,0,1.8,1.0,rarely,4.9,1.2,no,0,4,4,1,reading/writing,1
+11/20/2025 12:00,1,college of human ecology,prefer not to say,1.85,0,97,18,no,0,3.2,3.0,rarely,6.3,0.5,no,0,4,3,5,kinesthetic,0
+10/08/2025 04:00,4,college of information sciences and computing,prefer not to say,1.86,1,63,18,no,0,1.3,3.2,rarely,4.0,0.9,no,0,3,4,2,visual,1
+10/07/2025 07:00,3,college of nursing,prefer not to say,2.05,0,97,21,no,0,2.3,3.6,rarely,6.6,0.1,no,0,2,3,4,visual,0
+10/28/2025 04:00,4,college of arts and sciences,female,2.99,0,81,18,yes,12,2.6,0.5,rarely,5.6,0.6,no,0,4,3,4,reading/writing,1
+10/21/2025 13:00,3,college of engineering,male,3.76,1,62,15,no,0,1.0,1.0,rarely,4.0,0.1,no,0,3,1,3,reading/writing,1
+11/19/2025 20:00,4,college of business and management,female,1.82,0,97,18,no,0,2.3,5.0,rarely,7.4,0.8,regularly,2,1,2,4,visual,0
+11/02/2025 21:00,3,college of education,male,2.72,1,74,18,yes,8,1.5,1.2,sometimes,6.3,0.1,occasionally,2,5,2,1,reading/writing,1
+11/03/2025 11:00,4,college of business and management,prefer not to say,1.57,0,88,15,yes,8,2.6,3.3,sometimes,8.5,0.1,regularly,4,2,2,4,reading/writing,0
+10/30/2025 03:00,2,college of agriculture,male,1.9,1,95,21,no,0,2.8,4.3,rarely,6.0,0.6,occasionally,4,3,2,4,visual,0
+10/19/2025 21:00,3,college of engineering,female,1.9,0,99,18,no,0,3.4,4.1,never,7.4,0.2,occasionally,4,3,3,3,visual,0
+11/27/2025 18:00,1,college of forestry and environmental science,female,2.87,1,88,18,yes,12,1.9,2.0,sometimes,7.5,4.8,no,0,3,3,4,reading/writing,1
+10/13/2025 03:00,2,college of engineering,female,2.09,0,99,21,no,0,2.5,2.6,sometimes,7.4,3.3,regularly,4,2,1,3,visual,0
+10/16/2025 19:00,1,college of business and management,female,2.84,2,83,15,no,0,2.7,2.8,rarely,4.5,1.1,no,0,3,5,2,auditory,1
+11/13/2025 09:00,1,college of information sciences and computing,female,2.31,0,91,18,yes,8,3.2,3.0,never,8.2,3.9,no,0,4,1,4,visual,0
+10/04/2025 15:00,3,college of arts and sciences,male,1.92,0,92,15,no,0,1.6,4.5,sometimes,7.4,0.1,heavily,2,3,3,4,visual,0
+11/07/2025 17:00,3,college of business and management,male,2.18,0,93,18,no,0,2.3,3.3,never,6.6,0.5,no,0,2,4,5,visual,0
+11/18/2025 16:00,2,college of human ecology,male,1.8,0,89,18,no,0,2.1,5.0,never,7.7,0.2,occasionally,2,2,1,3,auditory,0
+11/11/2025 18:00,2,college of business and management,male,2.09,1,90,18,yes,15,1.7,2.6,rarely,6.0,0.1,no,0,5,5,2,auditory,1
+11/19/2025 09:00,2,college of business and management,prefer not to say,2.44,2,85,18,yes,8,1.8,0.5,often,6.0,0.4,no,0,4,4,1,kinesthetic,1
+10/08/2025 18:00,3,college of business and management,prefer not to say,3.4,1,61,18,no,0,1.0,0.5,never,7.3,1.5,heavily,2,4,4,3,visual,1
+10/15/2025 04:00,2,college of arts and sciences,female,2.44,0,64,21,yes,15,1.9,1.0,rarely,5.9,0.0,no,0,4,2,1,kinesthetic,1
+11/18/2025 02:00,4,college of human ecology,male,2.92,0,75,18,yes,12,2.4,1.0,often,5.6,1.6,heavily,2,4,5,2,auditory,1
+11/01/2025 07:00,3,college of forestry and environmental science,prefer not to say,3.51,2,85,21,no,0,0.6,2.9,never,6.3,0.9,occasionally,2,2,4,3,reading/writing,1
+11/09/2025 00:00,2,college of arts and sciences,male,2.08,0,86,18,no,0,4.5,2.1,rarely,7.5,0.3,no,0,2,2,5,kinesthetic,0
+11/05/2025 22:00,1,college of education,male,1.96,3,69,15,yes,8,2.9,0.8,rarely,4.7,0.9,occasionally,2,5,3,4,auditory,1
+11/01/2025 23:00,1,college of engineering,female,2.12,0,85,21,no,0,3.9,4.9,sometimes,7.5,1.0,regularly,4,3,2,4,kinesthetic,0
+10/01/2025 08:00,4,college of agriculture,female,2.56,1,64,21,yes,12,0.8,3.6,rarely,5.1,1.4,regularly,8,3,3,3,visual,1
+11/14/2025 23:00,1,college of nursing,male,1.64,0,100,21,no,0,3.2,3.5,never,8.0,0.5,occasionally,2,3,3,5,visual,0
+10/25/2025 21:00,1,college of engineering,male,1.95,0,91,18,no,0,2.2,3.6,never,7.6,3.1,no,0,4,4,3,reading/writing,0
+11/18/2025 04:00,4,college of education,male,3.04,0,67,15,yes,8,1.5,1.1,sometimes,5.9,0.2,regularly,5,4,5,3,reading/writing,1
+11/22/2025 11:00,1,college of agriculture,prefer not to say,2.39,0,62,21,yes,8,3.3,3.0,sometimes,5.1,0.2,no,0,3,2,3,visual,1
+11/03/2025 17:00,3,college of arts and sciences,male,2.43,1,69,18,no,0,1.8,1.7,rarely,4.7,0.1,occasionally,5,3,4,3,kinesthetic,1
+10/22/2025 22:00,1,college of human ecology,male,2.7,0,77,15,yes,15,1.1,2.7,rarely,6.6,0.9,no,0,4,2,3,auditory,1
+11/29/2025 11:00,3,college of forestry and environmental science,female,3.41,2,73,18,yes,15,3.5,3.4,sometimes,6.2,1.7,no,0,4,5,2,reading/writing,1
+11/27/2025 09:00,1,college of human ecology,prefer not to say,3.12,0,78,15,no,0,2.9,1.8,rarely,4.5,1.8,occasionally,2,3,3,4,reading/writing,1
+11/22/2025 22:00,1,college of agriculture,male,1.78,2,78,15,no,0,1.7,1.0,often,4.2,0.8,regularly,5,5,2,3,kinesthetic,1
+11/24/2025 12:00,4,college of human ecology,male,3.06,0,77,18,no,0,2.5,2.4,often,5.1,0.4,no,0,3,3,3,reading/writing,1
+11/16/2025 18:00,3,college of education,prefer not to say,2.79,1,65,18,no,0,2.4,2.3,rarely,4.3,2.7,no,0,4,2,1,auditory,1
+10/15/2025 09:00,3,college of arts and sciences,prefer not to say,1.65,0,95,18,no,0,2.2,3.4,sometimes,7.8,1.3,occasionally,4,2,3,4,auditory,0
+11/21/2025 04:00,1,college of education,male,1.83,0,92,15,no,0,3.1,3.1,never,7.0,1.0,regularly,4,2,3,3,kinesthetic,0
+11/02/2025 19:00,4,college of business and management,male,3.38,2,75,18,yes,8,3.3,1.4,sometimes,4.0,6.9,regularly,10,3,4,2,visual,1
+10/11/2025 04:00,4,college of human ecology,female,3.02,0,74,18,yes,12,3.0,1.8,often,5.1,0.1,no,0,4,4,5,reading/writing,1
+10/02/2025 05:00,2,college of engineering,female,3.48,0,67,15,yes,12,1.5,0.5,rarely,7.0,0.0,no,0,5,3,5,visual,1
+10/18/2025 12:00,1,college of nursing,female,4.0,0,80,15,no,0,0.9,0.5,rarely,5.2,1.4,occasionally,2,3,2,1,auditory,1
+10/27/2025 02:00,2,college of human ecology,prefer not to say,2.97,0,70,15,no,0,1.5,2.9,sometimes,4.9,1.0,occasionally,10,5,2,1,reading/writing,1
+10/03/2025 04:00,3,college of education,prefer not to say,1.37,0,94,18,no,0,1.5,3.9,never,6.6,1.5,occasionally,2,1,1,4,reading/writing,0
+10/26/2025 13:00,3,college of human ecology,male,2.41,0,78,21,no,0,0.6,2.2,often,4.6,0.2,no,0,4,4,1,kinesthetic,1
+10/25/2025 04:00,2,college of engineering,prefer not to say,1.8,0,90,18,no,0,3.0,3.7,rarely,6.9,0.2,occasionally,4,3,1,3,kinesthetic,0
+11/10/2025 00:00,2,college of engineering,female,1.06,0,95,18,no,0,2.4,4.1,never,6.8,0.8,no,0,2,3,5,reading/writing,0
+10/08/2025 13:00,2,college of nursing,prefer not to say,1.78,0,88,21,no,0,1.7,3.9,never,7.2,0.3,occasionally,2,2,2,4,reading/writing,0
+10/24/2025 02:00,1,college of information sciences and computing,female,3.04,1,76,15,no,0,2.4,1.6,never,7.4,3.0,no,0,4,1,4,auditory,1
+11/18/2025 18:00,2,college of arts and sciences,female,2.27,0,87,15,yes,8,2.4,2.4,never,8.5,0.6,occasionally,2,2,1,4,visual,0
+11/18/2025 09:00,3,college of agriculture,prefer not to say,2.39,0,87,18,yes,12,2.5,2.3,rarely,7.2,0.0,heavily,2,3,4,3,reading/writing,0
+10/27/2025 22:00,4,college of forestry and environmental science,prefer not to say,1.76,0,92,18,no,0,2.2,2.0,rarely,7.2,0.7,occasionally,2,4,1,5,visual,0
+10/14/2025 19:00,1,college of human ecology,prefer not to say,1.99,0,61,15,yes,8,0.7,3.2,sometimes,4.7,4.5,no,0,4,5,3,auditory,1
+11/22/2025 07:00,4,college of business and management,prefer not to say,1.75,0,100,18,no,0,3.1,4.7,never,6.3,0.1,regularly,2,2,2,5,auditory,0
+10/28/2025 21:00,3,college of arts and sciences,female,2.99,1,79,18,no,0,1.5,1.8,sometimes,4.0,4.3,occasionally,5,3,3,3,reading/writing,1
+11/12/2025 17:00,4,college of human ecology,prefer not to say,2.3,2,76,15,yes,12,1.6,0.9,rarely,4.0,2.3,occasionally,2,2,3,1,auditory,1
+11/10/2025 21:00,4,college of forestry and environmental science,female,1.81,0,96,21,no,0,2.3,3.8,rarely,7.0,0.4,occasionally,2,2,3,4,visual,0
+10/13/2025 18:00,2,college of forestry and environmental science,female,2.62,1,74,15,no,0,3.2,2.0,often,5.7,1.6,no,0,3,2,2,auditory,1
+10/31/2025 23:00,4,college of business and management,prefer not to say,2.16,1,89,21,no,0,2.2,2.0,sometimes,6.7,1.4,no,0,4,4,3,reading/writing,1
+11/18/2025 04:00,2,college of forestry and environmental science,female,2.12,0,86,15,no,0,1.6,2.3,rarely,6.0,0.7,no,0,3,1,5,auditory,0
+10/29/2025 19:00,3,college of engineering,male,3.23,2,74,15,yes,8,1.2,3.7,often,5.0,0.2,no,0,3,2,1,visual,1
+10/30/2025 01:00,1,college of forestry and environmental science,prefer not to say,2.4,2,60,18,yes,15,2.3,1.8,rarely,4.6,0.4,no,0,3,3,1,visual,1
+11/18/2025 00:00,4,college of nursing,prefer not to say,1.78,0,89,15,no,0,2.0,2.8,never,7.0,1.0,regularly,4,2,2,3,reading/writing,0
+11/11/2025 02:00,2,college of education,prefer not to say,1.85,1,84,18,yes,8,2.2,1.5,sometimes,5.7,0.4,occasionally,5,2,3,1,reading/writing,1
+10/28/2025 03:00,2,college of nursing,female,1.8,0,87,15,no,0,4.2,3.2,never,9.2,1.7,heavily,2,2,2,4,auditory,0
+10/22/2025 06:00,4,college of business and management,male,2.72,3,64,18,yes,12,0.5,1.5,often,5.6,2.2,no,0,5,4,3,kinesthetic,1
+11/20/2025 07:00,3,college of education,male,1.52,0,89,18,no,0,3.0,2.0,rarely,6.2,0.6,regularly,4,1,2,5,kinesthetic,0
+10/01/2025 01:00,4,college of nursing,female,3.77,2,67,15,yes,15,1.9,1.8,often,6.7,7.3,no,0,4,4,3,visual,1
+11/27/2025 06:00,3,college of human ecology,female,1.55,0,97,18,no,0,3.2,3.7,never,6.6,0.2,regularly,4,1,2,4,kinesthetic,0
+11/30/2025 10:00,3,college of nursing,prefer not to say,1.79,0,88,15,yes,8,1.4,3.1,never,6.5,0.4,regularly,4,1,2,5,reading/writing,0
+11/24/2025 16:00,3,college of engineering,female,1.96,0,97,18,no,0,2.4,3.7,never,6.4,3.7,regularly,2,3,2,4,auditory,0
+10/04/2025 09:00,3,college of forestry and environmental science,prefer not to say,2.99,3,76,15,no,0,1.7,1.6,sometimes,4.0,1.8,no,0,3,3,4,auditory,1
+11/10/2025 13:00,4,college of human ecology,male,2.05,0,87,18,no,0,3.1,2.2,rarely,6.0,2.1,occasionally,2,2,3,5,kinesthetic,0
+11/21/2025 03:00,2,college of arts and sciences,male,1.9,0,89,18,yes,8,1.1,3.3,sometimes,6.7,0.6,regularly,4,1,4,5,kinesthetic,0
+10/23/2025 17:00,4,college of business and management,male,1.87,0,95,15,no,0,4.0,2.0,never,7.1,0.6,occasionally,4,2,1,3,auditory,0
+11/23/2025 17:00,4,college of nursing,prefer not to say,1.82,0,99,15,yes,8,4.5,2.8,rarely,7.2,0.7,regularly,2,1,1,3,auditory,0
+10/11/2025 11:00,2,college of agriculture,prefer not to say,2.02,0,85,18,no,0,2.1,3.0,never,7.4,0.3,heavily,4,2,2,3,visual,0
+11/06/2025 16:00,2,college of information sciences and computing,male,1.24,0,94,15,yes,8,2.2,3.0,never,8.3,0.4,regularly,2,4,3,4,visual,0
+10/23/2025 23:00,1,college of business and management,female,3.06,0,71,21,yes,8,2.2,0.5,rarely,4.3,0.5,no,0,2,4,4,kinesthetic,1
+11/21/2025 16:00,1,college of business and management,male,2.53,3,79,21,yes,12,0.8,1.8,often,7.6,2.9,no,0,4,4,2,auditory,1
+10/28/2025 21:00,2,college of human ecology,female,2.0,0,97,15,no,0,4.5,4.1,rarely,6.7,0.9,no,0,4,2,4,reading/writing,0
+11/30/2025 00:00,2,college of human ecology,male,1.55,0,92,18,no,0,2.5,2.0,never,6.6,0.8,regularly,4,4,2,5,visual,0
+11/04/2025 15:00,3,college of business and management,prefer not to say,1.39,0,97,18,no,0,2.2,4.0,never,7.4,1.2,occasionally,2,3,1,5,reading/writing,0
+10/20/2025 21:00,3,college of education,prefer not to say,1.99,0,89,15,yes,8,3.6,3.2,never,7.6,2.9,occasionally,4,4,2,4,visual,0
+10/15/2025 16:00,4,college of human ecology,female,2.95,2,70,21,yes,20,1.9,3.1,sometimes,5.6,1.2,regularly,2,3,4,2,kinesthetic,1
+10/25/2025 11:00,1,college of agriculture,female,2.37,1,74,21,yes,15,0.5,1.9,sometimes,5.4,7.6,no,0,5,5,2,reading/writing,1
+10/14/2025 10:00,2,college of engineering,prefer not to say,1.64,0,96,18,yes,8,2.8,3.0,rarely,7.9,0.2,heavily,4,2,2,3,kinesthetic,0
+10/04/2025 08:00,4,college of engineering,male,2.09,0,87,18,no,0,3.3,4.3,never,8.5,1.7,heavily,2,2,2,4,visual,0
+11/26/2025 06:00,4,college of agriculture,prefer not to say,3.51,1,63,18,no,0,2.5,2.6,often,6.8,1.7,no,0,2,3,3,reading/writing,1
+11/01/2025 03:00,2,college of engineering,female,2.09,0,87,15,no,0,3.0,1.6,sometimes,5.7,3.5,occasionally,5,3,5,1,visual,1
+11/11/2025 15:00,3,college of agriculture,female,1.67,0,86,18,no,0,4.2,5.1,rarely,6.6,0.4,regularly,4,3,2,5,auditory,0
+10/17/2025 15:00,3,college of arts and sciences,female,2.76,2,87,18,no,0,2.1,2.6,rarely,6.0,1.1,no,0,4,3,2,visual,1
+11/07/2025 23:00,1,college of information sciences and computing,male,2.41,0,84,15,no,0,1.3,1.8,rarely,6.0,4.2,no,0,3,4,3,kinesthetic,1
+11/14/2025 00:00,1,college of nursing,prefer not to say,3.51,1,80,15,yes,15,3.6,2.6,rarely,5.9,0.2,no,0,4,5,4,visual,1
+10/25/2025 08:00,2,college of business and management,male,1.5,0,86,21,no,0,3.3,2.6,never,6.0,2.4,occasionally,4,2,2,5,reading/writing,0
+10/27/2025 17:00,4,college of nursing,female,3.84,1,75,15,yes,12,1.8,2.0,sometimes,5.6,2.7,regularly,5,4,3,3,visual,1
+11/16/2025 13:00,2,college of nursing,prefer not to say,2.7,0,82,18,no,0,2.5,2.5,sometimes,4.6,1.5,occasionally,5,2,2,3,kinesthetic,1
+11/23/2025 03:00,2,college of agriculture,male,1.32,0,92,18,no,0,2.5,3.5,rarely,7.0,1.9,occasionally,4,2,1,4,kinesthetic,0
+10/03/2025 20:00,1,college of human ecology,female,1.86,0,89,21,yes,12,2.5,1.6,never,7.6,0.6,occasionally,6,3,4,4,visual,0
+11/18/2025 21:00,4,college of agriculture,female,3.0,3,87,21,yes,8,1.7,2.7,often,5.0,0.6,occasionally,5,2,3,1,reading/writing,1
+11/16/2025 00:00,2,college of engineering,female,1.61,0,86,18,no,0,4.0,4.9,rarely,6.5,1.0,occasionally,2,1,3,3,kinesthetic,0
+10/24/2025 05:00,3,college of engineering,prefer not to say,1.43,0,88,15,no,0,3.6,3.3,never,6.7,2.0,occasionally,2,2,1,5,kinesthetic,0
+11/20/2025 11:00,2,college of engineering,male,1.4,0,92,18,yes,8,4.0,4.2,never,6.6,1.6,occasionally,4,1,2,5,reading/writing,0
+10/29/2025 12:00,1,college of education,female,3.16,1,76,15,no,0,2.7,3.1,never,5.8,6.4,no,0,4,5,4,visual,1
+11/23/2025 03:00,1,college of agriculture,male,1.86,0,100,15,yes,8,1.3,4.5,never,8.4,0.2,regularly,2,1,2,3,reading/writing,0
+11/28/2025 19:00,2,college of engineering,prefer not to say,1.44,0,94,18,yes,8,2.2,2.5,never,6.5,2.2,occasionally,4,2,2,5,reading/writing,0
+10/22/2025 13:00,4,college of agriculture,prefer not to say,1.55,1,86,18,no,0,1.8,3.1,never,7.7,3.5,occasionally,4,4,2,4,reading/writing,0
+11/18/2025 12:00,3,college of information sciences and computing,female,1.83,0,100,15,no,0,2.6,2.0,sometimes,7.1,0.4,regularly,4,3,3,5,visual,0
+10/21/2025 11:00,3,college of nursing,prefer not to say,2.52,0,68,18,no,0,2.1,2.1,rarely,6.1,1.4,no,0,4,3,4,auditory,1
+11/04/2025 14:00,1,college of nursing,male,3.45,1,81,15,yes,8,1.9,2.0,rarely,6.5,2.4,regularly,5,4,3,2,auditory,1
+11/18/2025 16:00,3,college of education,prefer not to say,2.08,0,87,18,no,0,2.6,3.6,never,6.6,1.9,regularly,2,1,3,5,visual,0
+10/23/2025 09:00,3,college of nursing,prefer not to say,2.85,1,83,15,yes,12,0.5,1.7,often,4.6,0.9,no,0,4,4,1,kinesthetic,1
+10/10/2025 20:00,1,college of engineering,female,1.88,0,99,15,yes,12,2.4,1.1,never,7.0,1.6,regularly,6,2,4,5,reading/writing,0
+11/17/2025 02:00,4,college of engineering,female,2.2,0,67,21,no,0,1.1,2.8,never,5.7,3.8,no,0,4,2,3,visual,1
+10/13/2025 08:00,2,college of agriculture,prefer not to say,2.12,0,86,18,yes,12,1.7,3.1,never,6.4,1.7,no,0,3,3,5,reading/writing,0
+11/17/2025 22:00,1,college of engineering,prefer not to say,3.81,0,86,18,yes,12,1.1,3.1,often,5.5,0.5,heavily,5,4,1,1,kinesthetic,1
+11/12/2025 15:00,3,college of education,female,2.42,0,82,15,no,0,0.5,4.2,rarely,6.7,1.4,regularly,2,5,1,3,reading/writing,1
+10/06/2025 20:00,3,college of agriculture,male,1.73,0,90,15,no,0,3.6,5.3,rarely,7.9,1.4,occasionally,2,1,1,3,visual,0
+10/08/2025 09:00,4,college of information sciences and computing,prefer not to say,3.01,2,69,21,no,0,2.3,3.0,rarely,6.8,0.2,no,0,3,3,2,auditory,1
+10/11/2025 18:00,2,college of information sciences and computing,prefer not to say,2.15,0,95,18,no,0,3.2,3.8,rarely,6.7,1.2,no,0,3,2,3,visual,0
+11/07/2025 23:00,2,college of information sciences and computing,prefer not to say,2.33,0,100,18,no,0,3.3,2.2,never,7.7,1.2,occasionally,2,2,2,5,auditory,0
+11/20/2025 12:00,1,college of business and management,female,2.05,0,92,21,yes,8,1.6,3.5,rarely,8.2,1.1,regularly,4,1,2,4,kinesthetic,0
+10/20/2025 22:00,2,college of human ecology,male,1.73,0,98,18,yes,8,1.8,2.4,never,7.6,1.0,heavily,4,1,3,3,auditory,0
+10/22/2025 06:00,3,college of human ecology,male,2.74,1,71,18,no,0,2.2,0.5,often,4.1,7.8,regularly,2,3,5,3,visual,1
+11/04/2025 16:00,1,college of business and management,female,1.8,0,96,21,no,0,2.2,4.3,never,6.0,0.1,regularly,6,1,2,3,visual,0
+10/11/2025 08:00,1,college of education,prefer not to say,3.12,1,63,15,yes,12,0.8,2.0,rarely,5.5,2.4,no,0,3,1,3,auditory,1
+10/03/2025 08:00,4,college of arts and sciences,male,2.08,0,86,18,yes,8,2.2,3.0,sometimes,4.7,0.4,no,0,4,4,3,visual,1
+10/05/2025 17:00,2,college of arts and sciences,male,2.18,0,89,18,no,0,2.4,3.9,never,7.6,4.0,occasionally,4,1,3,3,auditory,0
+11/14/2025 22:00,1,college of information sciences and computing,prefer not to say,2.88,3,76,15,yes,8,1.2,2.1,sometimes,6.2,1.9,no,0,4,1,2,auditory,1
+10/10/2025 06:00,3,college of arts and sciences,male,1.55,0,86,18,yes,8,2.3,3.3,never,7.8,1.9,no,0,4,1,3,kinesthetic,0
+11/04/2025 01:00,4,college of forestry and environmental science,male,2.28,1,88,18,no,0,2.6,2.5,never,6.9,2.1,no,0,2,3,3,kinesthetic,0
+10/12/2025 09:00,1,college of forestry and environmental science,male,1.51,0,86,18,no,0,3.6,4.7,never,6.3,2.0,occasionally,4,2,2,4,visual,0
+10/09/2025 18:00,1,college of nursing,male,3.71,1,87,18,yes,20,2.0,1.0,sometimes,7.7,0.9,no,0,4,2,1,reading/writing,1
+11/18/2025 03:00,4,college of engineering,male,2.62,3,89,15,yes,15,2.1,3.3,never,7.2,0.3,regularly,5,3,4,1,kinesthetic,1
+10/18/2025 20:00,4,college of education,prefer not to say,3.33,0,74,15,yes,15,1.4,1.8,rarely,9.3,1.1,no,0,5,1,2,reading/writing,1
+10/22/2025 07:00,1,college of education,prefer not to say,1.62,0,88,21,no,0,2.7,3.8,never,7.3,0.1,occasionally,4,1,1,3,auditory,0
+10/12/2025 03:00,3,college of agriculture,male,4.0,2,83,15,yes,8,1.5,2.2,rarely,6.8,1.1,occasionally,5,3,4,1,kinesthetic,1
+11/05/2025 02:00,3,college of information sciences and computing,female,2.17,0,79,21,yes,15,0.6,3.0,never,7.6,0.7,no,0,3,2,2,auditory,1
+10/30/2025 22:00,4,college of human ecology,female,3.11,1,79,15,no,0,1.5,3.1,sometimes,6.2,1.0,no,0,3,1,1,kinesthetic,1
+10/25/2025 11:00,2,college of nursing,female,1.98,1,78,18,no,0,1.6,0.8,sometimes,4.0,0.6,regularly,5,2,1,2,auditory,1
+11/02/2025 16:00,4,college of human ecology,male,2.35,0,91,18,yes,8,1.6,1.5,sometimes,6.4,1.5,occasionally,4,2,2,3,reading/writing,0
+11/02/2025 09:00,2,college of forestry and environmental science,male,1.67,0,100,15,yes,12,2.3,1.7,rarely,6.3,0.2,regularly,2,1,2,5,auditory,0
+10/30/2025 23:00,3,college of information sciences and computing,prefer not to say,1.61,1,95,21,no,0,2.6,2.9,rarely,6.6,0.2,heavily,4,1,1,5,visual,0
+11/10/2025 20:00,4,college of education,female,2.91,1,70,18,yes,12,2.6,2.9,rarely,4.0,0.1,occasionally,2,4,3,3,visual,1
+10/20/2025 18:00,4,college of human ecology,male,2.74,2,76,15,no,0,1.8,3.0,rarely,5.8,7.6,occasionally,5,5,3,1,reading/writing,1
+11/30/2025 02:00,2,college of human ecology,prefer not to say,3.22,3,87,18,yes,12,1.8,2.9,rarely,6.3,1.7,occasionally,5,4,2,3,reading/writing,1
+11/04/2025 13:00,4,college of engineering,female,2.26,3,87,15,no,0,1.1,1.5,rarely,7.1,3.4,occasionally,2,4,3,2,reading/writing,1
+11/06/2025 20:00,4,college of information sciences and computing,male,3.17,3,62,18,yes,8,1.2,2.4,sometimes,5.5,1.2,regularly,2,3,3,1,reading/writing,1
+11/26/2025 12:00,1,college of forestry and environmental science,female,2.37,0,70,21,no,0,2.7,1.8,never,7.0,1.0,heavily,5,4,2,2,visual,1
+10/10/2025 22:00,3,college of information sciences and computing,prefer not to say,2.17,0,82,21,yes,12,1.9,3.2,often,6.4,3.0,occasionally,5,2,5,4,reading/writing,1
+11/20/2025 15:00,3,college of agriculture,prefer not to say,1.87,2,61,15,no,0,1.4,4.0,never,6.5,3.4,no,0,4,3,2,auditory,1
+10/03/2025 14:00,1,college of business and management,prefer not to say,1.67,0,96,21,no,0,2.8,3.7,rarely,6.6,0.1,no,0,2,2,3,reading/writing,0
+10/03/2025 03:00,4,college of education,male,1.73,1,90,18,yes,12,2.3,1.0,never,7.0,1.2,no,0,3,1,5,auditory,0
+11/05/2025 02:00,2,college of education,female,1.78,0,100,15,yes,12,2.8,3.3,rarely,7.7,0.6,regularly,6,3,2,4,visual,0
+10/17/2025 14:00,1,college of engineering,male,2.0,0,94,18,no,0,4.6,3.3,never,6.4,0.1,regularly,4,1,1,4,auditory,0
+10/04/2025 09:00,4,college of arts and sciences,prefer not to say,2.51,2,62,18,yes,12,0.7,2.1,rarely,7.4,1.7,occasionally,5,3,1,4,auditory,1
+10/07/2025 15:00,2,college of nursing,female,1.63,0,86,15,no,0,3.1,6.1,sometimes,6.9,0.1,no,0,2,3,4,kinesthetic,0
+11/03/2025 03:00,4,college of human ecology,male,3.81,2,67,18,yes,15,1.1,2.6,sometimes,7.5,1.5,occasionally,2,3,3,2,auditory,1
+10/13/2025 01:00,2,college of nursing,prefer not to say,2.06,0,67,18,no,0,0.5,2.5,never,6.8,0.6,no,0,4,3,2,kinesthetic,1
+10/04/2025 01:00,3,college of human ecology,prefer not to say,2.42,0,100,15,yes,8,3.9,2.8,never,7.8,0.3,occasionally,2,1,1,4,auditory,0
+11/20/2025 08:00,3,college of information sciences and computing,prefer not to say,2.09,0,95,21,no,0,3.5,3.2,never,7.6,0.4,regularly,4,3,1,3,auditory,0
+11/16/2025 03:00,2,college of forestry and environmental science,prefer not to say,3.35,1,82,18,yes,20,0.9,3.5,rarely,5.2,0.9,no,0,3,2,1,auditory,1
+11/15/2025 20:00,4,college of arts and sciences,female,1.73,0,85,18,yes,8,2.3,4.6,never,7.6,0.2,regularly,2,2,2,4,auditory,0
+11/30/2025 16:00,3,college of education,female,2.65,0,60,18,yes,8,0.8,4.2,rarely,5.3,1.0,occasionally,5,3,1,4,visual,1
+10/03/2025 17:00,2,college of business and management,male,3.46,1,68,15,no,0,3.8,0.7,sometimes,6.1,0.6,occasionally,10,5,4,3,auditory,1
+10/20/2025 17:00,1,college of forestry and environmental science,female,1.53,0,88,18,yes,12,2.6,3.1,never,6.1,1.3,occasionally,2,3,4,3,visual,0
+10/17/2025 03:00,3,college of education,male,3.53,1,86,15,yes,12,2.7,3.0,often,5.0,0.6,regularly,10,4,3,1,reading/writing,1
+11/15/2025 02:00,2,college of education,male,1.83,0,99,18,no,0,3.5,2.7,never,8.7,2.5,occasionally,4,3,1,4,auditory,0
+10/18/2025 20:00,3,college of agriculture,female,1.64,0,94,15,no,0,4.1,5.8,never,6.7,0.1,regularly,4,2,2,3,kinesthetic,0
+11/07/2025 00:00,3,college of information sciences and computing,female,1.57,1,91,15,no,0,2.7,4.3,rarely,6.0,0.1,regularly,4,3,1,5,kinesthetic,0
+10/16/2025 09:00,1,college of information sciences and computing,prefer not to say,3.1,2,70,15,no,0,2.1,1.5,sometimes,4.7,0.9,regularly,2,5,4,4,reading/writing,1
+10/19/2025 14:00,4,college of engineering,female,2.72,1,64,18,yes,8,0.7,3.1,sometimes,5.4,1.7,occasionally,10,4,3,2,reading/writing,1
+10/16/2025 20:00,1,college of education,female,2.45,1,65,18,no,0,2.4,4.2,sometimes,6.0,0.0,no,0,4,4,2,auditory,1
+11/23/2025 21:00,4,college of human ecology,prefer not to say,2.01,0,89,15,no,0,2.7,3.7,never,7.0,0.3,no,0,1,1,5,reading/writing,0
+11/13/2025 20:00,3,college of education,female,2.47,1,60,18,yes,12,1.8,0.5,sometimes,5.7,1.1,heavily,8,3,1,4,auditory,1
+11/08/2025 22:00,3,college of business and management,prefer not to say,2.54,0,70,15,yes,15,1.4,1.9,never,5.1,0.5,no,0,3,2,3,visual,1
+10/25/2025 21:00,2,college of human ecology,male,1.95,0,95,21,no,0,6.1,4.1,never,7.9,0.7,occasionally,4,2,2,3,reading/writing,0
+10/30/2025 21:00,2,college of arts and sciences,prefer not to say,3.21,1,82,21,yes,8,1.1,4.2,never,4.8,0.1,no,0,4,4,2,auditory,1
+11/17/2025 06:00,2,college of arts and sciences,female,2.78,0,66,21,no,0,3.0,2.9,rarely,5.1,3.0,no,0,2,5,2,kinesthetic,1
+10/11/2025 05:00,2,college of agriculture,male,1.77,0,86,21,no,0,4.2,2.8,sometimes,8.4,0.6,occasionally,2,1,1,5,reading/writing,0
+11/29/2025 07:00,2,college of information sciences and computing,female,1.6,0,97,21,yes,8,3.0,4.0,never,7.7,2.6,regularly,2,3,3,5,reading/writing,0
+10/10/2025 01:00,3,college of education,male,3.13,2,81,18,no,0,1.9,2.8,rarely,4.4,0.2,no,0,5,2,2,visual,1
+10/29/2025 19:00,1,college of engineering,male,2.06,0,89,18,no,0,2.9,3.5,never,6.2,0.1,occasionally,2,1,2,5,reading/writing,0
+10/31/2025 03:00,3,college of education,male,3.26,1,60,18,no,0,3.0,2.1,often,5.3,0.5,regularly,2,3,1,4,auditory,1
+11/12/2025 08:00,1,college of arts and sciences,male,3.24,1,63,15,no,0,1.9,3.1,sometimes,5.4,0.1,no,0,4,1,2,visual,1
+10/14/2025 16:00,2,college of information sciences and computing,female,1.59,0,92,18,yes,8,2.6,2.7,never,8.2,0.8,heavily,6,4,1,5,reading/writing,0
+11/22/2025 06:00,1,college of human ecology,prefer not to say,3.63,0,86,21,no,0,2.4,2.2,never,4.0,0.7,occasionally,8,4,5,1,auditory,1
+10/27/2025 14:00,2,college of agriculture,male,2.68,1,74,15,no,0,2.9,2.9,sometimes,4.0,1.2,no,0,3,2,1,auditory,1
+10/01/2025 00:00,3,college of forestry and environmental science,female,1.54,0,98,21,no,0,2.7,4.5,never,6.5,0.1,no,0,1,2,5,auditory,0
+10/10/2025 06:00,1,college of nursing,male,2.69,0,79,18,no,0,1.7,2.3,sometimes,5.3,1.8,no,0,2,1,3,visual,1
+11/06/2025 05:00,3,college of agriculture,prefer not to say,1.61,0,84,15,yes,12,2.1,0.9,sometimes,5.8,1.3,occasionally,5,4,3,4,auditory,1
+11/21/2025 19:00,4,college of information sciences and computing,male,4.0,1,77,21,yes,15,1.8,2.2,sometimes,5.1,0.6,no,0,3,3,3,kinesthetic,1
+10/11/2025 00:00,3,college of arts and sciences,male,2.05,0,98,15,no,0,2.5,3.1,rarely,6.0,0.4,occasionally,2,3,2,3,kinesthetic,0
+10/15/2025 23:00,1,college of information sciences and computing,male,1.57,0,88,18,no,0,2.8,3.0,sometimes,7.1,0.0,regularly,2,2,1,4,visual,0
+11/24/2025 14:00,4,college of information sciences and computing,male,2.94,2,67,21,no,0,4.4,2.9,sometimes,4.0,2.0,occasionally,2,5,4,1,reading/writing,1
+10/25/2025 06:00,2,college of engineering,female,1.91,0,98,18,no,0,3.4,4.6,never,7.8,0.0,regularly,4,2,2,5,reading/writing,0
+11/02/2025 16:00,4,college of engineering,female,2.9,0,74,18,yes,8,1.9,0.9,sometimes,7.2,4.9,no,0,4,3,1,visual,1
+10/10/2025 00:00,4,college of education,male,1.9,0,85,21,yes,8,1.5,3.9,rarely,6.9,1.3,no,0,2,1,4,kinesthetic,0
+11/16/2025 01:00,3,college of agriculture,prefer not to say,1.96,1,63,15,no,0,1.7,0.5,rarely,6.4,0.7,occasionally,5,5,4,5,visual,1
+10/01/2025 08:00,2,college of arts and sciences,prefer not to say,1.95,0,93,18,no,0,3.1,2.6,never,7.6,0.6,occasionally,2,2,3,4,reading/writing,0
+11/22/2025 06:00,1,college of arts and sciences,male,3.37,2,86,18,no,0,2.3,3.1,never,6.1,1.4,regularly,2,4,4,4,reading/writing,1
+10/15/2025 21:00,2,college of information sciences and computing,female,1.62,0,94,15,no,0,1.9,2.6,sometimes,6.0,3.0,occasionally,6,4,1,4,visual,0
+10/16/2025 02:00,4,college of engineering,female,1.47,0,86,18,no,0,4.4,4.4,rarely,8.0,0.1,regularly,4,1,4,4,auditory,0
+11/13/2025 23:00,2,college of engineering,prefer not to say,1.81,0,94,18,yes,8,2.0,5.1,never,7.5,2.4,occasionally,2,2,3,5,auditory,0
+10/04/2025 06:00,3,college of human ecology,prefer not to say,1.86,0,86,15,no,0,2.0,3.7,sometimes,7.3,0.6,regularly,2,4,2,3,visual,0
+11/29/2025 14:00,4,college of business and management,prefer not to say,2.4,1,61,15,yes,12,2.3,1.4,often,7.7,1.9,occasionally,2,3,4,2,reading/writing,1
+11/12/2025 11:00,4,college of arts and sciences,prefer not to say,1.42,0,92,21,no,0,3.7,4.2,never,6.9,2.5,heavily,2,2,1,5,auditory,0
+11/08/2025 18:00,1,college of arts and sciences,female,3.43,1,63,15,yes,20,1.1,3.3,sometimes,5.7,3.5,occasionally,2,5,3,4,kinesthetic,1
+10/25/2025 01:00,4,college of arts and sciences,male,1.56,0,99,18,no,0,2.6,4.4,rarely,7.3,0.3,regularly,2,2,1,5,auditory,0
+10/11/2025 04:00,2,college of education,female,1.6,1,83,18,yes,15,1.8,3.2,rarely,4.0,0.3,no,0,4,2,2,reading/writing,1
+10/20/2025 02:00,4,college of engineering,male,2.11,2,68,21,yes,12,1.6,2.0,often,5.3,4.3,regularly,5,5,4,2,auditory,1
+11/16/2025 14:00,3,college of engineering,prefer not to say,1.7,0,98,21,no,0,4.3,3.2,never,6.0,0.3,occasionally,2,3,3,5,kinesthetic,0
+10/20/2025 11:00,4,college of agriculture,male,3.46,1,60,18,no,0,0.8,2.9,rarely,4.2,0.7,occasionally,5,4,4,2,reading/writing,1
+10/29/2025 20:00,2,college of forestry and environmental science,prefer not to say,2.43,2,80,18,yes,15,1.7,1.3,sometimes,4.0,3.0,regularly,2,4,3,3,visual,1
+10/22/2025 19:00,4,college of education,female,2.14,1,90,18,no,0,2.4,3.5,never,8.4,0.4,heavily,2,2,4,4,auditory,0
+10/27/2025 14:00,1,college of engineering,male,2.78,3,75,15,no,0,3.6,4.2,rarely,5.0,1.2,heavily,5,5,2,2,kinesthetic,1
+10/07/2025 01:00,4,college of business and management,male,2.86,0,71,21,yes,8,1.4,1.2,rarely,5.2,1.7,occasionally,2,2,3,2,reading/writing,1
+11/24/2025 19:00,4,college of business and management,female,2.92,1,83,15,yes,12,1.2,2.3,rarely,5.1,0.7,no,0,3,3,2,visual,1
+10/04/2025 20:00,3,college of engineering,male,1.98,0,72,18,yes,20,0.5,3.5,often,5.2,0.5,occasionally,2,3,3,2,auditory,1
+10/07/2025 06:00,4,college of business and management,prefer not to say,3.17,1,81,18,yes,20,0.7,1.7,never,4.0,0.2,no,0,5,3,1,visual,1
+10/05/2025 05:00,4,college of human ecology,prefer not to say,2.75,1,74,21,yes,15,3.6,1.2,sometimes,7.5,3.5,occasionally,2,5,3,3,kinesthetic,1
+11/20/2025 06:00,4,college of business and management,female,1.72,0,99,18,no,0,2.2,3.1,rarely,7.3,0.1,regularly,4,3,1,5,visual,0
+11/28/2025 07:00,2,college of information sciences and computing,male,1.3,0,94,18,no,0,3.4,2.8,never,7.5,0.3,occasionally,2,1,4,4,auditory,0
+10/01/2025 22:00,2,college of arts and sciences,female,1.92,0,87,18,no,0,4.5,2.7,never,6.0,0.5,no,0,1,2,4,auditory,0
+10/13/2025 03:00,1,college of business and management,prefer not to say,2.65,1,74,18,no,0,3.4,2.8,rarely,6.4,0.4,occasionally,5,5,3,1,kinesthetic,1
+11/03/2025 13:00,4,college of engineering,male,1.29,1,87,18,no,0,4.1,3.4,never,8.0,2.1,regularly,4,1,4,4,kinesthetic,0
+10/27/2025 18:00,3,college of business and management,female,1.88,1,82,18,yes,12,2.5,1.4,sometimes,8.6,4.6,no,0,4,2,2,auditory,1
+11/02/2025 11:00,2,college of information sciences and computing,male,1.58,0,85,18,yes,12,2.3,3.3,never,8.2,0.2,no,0,4,2,5,reading/writing,0
+11/23/2025 19:00,3,college of nursing,male,3.37,0,89,18,yes,15,1.7,1.4,rarely,5.9,0.9,occasionally,5,4,1,3,kinesthetic,1
+11/08/2025 18:00,2,college of forestry and environmental science,male,2.83,1,82,18,yes,15,1.9,1.9,sometimes,6.1,1.5,no,0,4,4,3,reading/writing,1
+10/27/2025 14:00,4,college of engineering,prefer not to say,1.55,0,89,15,no,0,3.4,2.9,never,7.5,0.5,no,0,2,2,5,reading/writing,0
+10/21/2025 00:00,4,college of arts and sciences,female,3.58,0,78,21,no,0,0.5,3.4,rarely,6.9,2.3,heavily,10,3,3,1,kinesthetic,1
+11/06/2025 17:00,2,college of nursing,female,1.57,0,99,15,yes,8,1.4,2.4,never,6.1,0.7,regularly,2,2,2,3,reading/writing,0
+11/13/2025 22:00,2,college of business and management,male,2.78,1,88,18,no,0,0.9,2.0,sometimes,4.6,0.1,no,0,5,3,3,visual,1
+11/09/2025 23:00,2,college of arts and sciences,male,1.73,1,90,21,yes,12,2.8,4.5,never,6.6,2.7,regularly,4,3,1,5,kinesthetic,0
+11/10/2025 18:00,1,college of human ecology,male,1.51,0,87,15,no,0,3.8,2.6,never,9.1,2.2,no,0,3,2,5,reading/writing,0
+10/02/2025 05:00,3,college of agriculture,female,2.44,0,90,21,no,0,1.5,3.3,never,7.5,0.2,regularly,2,3,1,4,auditory,0
+11/05/2025 09:00,1,college of information sciences and computing,prefer not to say,1.99,0,93,21,no,0,4.1,2.5,rarely,7.5,0.1,no,0,2,4,4,auditory,0
+10/24/2025 17:00,3,college of business and management,male,2.59,1,71,21,no,0,1.5,1.8,rarely,8.0,1.7,occasionally,2,4,3,3,reading/writing,1
+10/17/2025 05:00,1,college of agriculture,male,4.0,1,70,21,yes,15,1.6,1.6,rarely,5.7,0.1,heavily,2,3,4,1,reading/writing,1
+11/28/2025 19:00,4,college of nursing,female,2.74,2,72,21,no,0,1.6,2.3,sometimes,6.9,2.7,occasionally,8,5,4,2,kinesthetic,1
+11/09/2025 20:00,1,college of human ecology,prefer not to say,1.84,0,94,18,no,0,3.4,4.2,rarely,6.1,0.4,no,0,1,2,4,visual,0
