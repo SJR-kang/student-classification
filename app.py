@@ -21,7 +21,7 @@ st.set_page_config(
 if 'reset_counter' not in st.session_state:
     st.session_state.reset_counter = 0
 
-def reset_form():
+def reset_all():
     """Reset all form inputs to default values"""
     st.session_state.reset_counter += 1
     # Clear all specific input states
@@ -152,8 +152,8 @@ if model and scaler:
     # Add reset button at the top
     col_reset, _ = st.columns([1, 5])
     with col_reset:
-        if st.button("🔄 Reset Form", use_container_width=True):
-            reset_form()
+        if st.button("🔄 Reset All", use_container_width=True, help="Clear all inputs and start over"):
+            reset_all()
             st.rerun()
     
     st.subheader("Enter the student's information:")
@@ -341,8 +341,8 @@ if model and scaler:
         predict_clicked = st.button("🔍 Predict Risk", type="primary", use_container_width=True)
     
     with col_reset2:
-        if st.button("🔄 Reset All", use_container_width=True):
-            reset_form()
+        if st.button("🔄 Reset All", use_container_width=True, help="Clear all inputs and start over"):
+            reset_all()
             st.rerun()
     
     if predict_clicked:
@@ -444,6 +444,6 @@ with st.sidebar:
     
     # Additional reset button in sidebar
     st.markdown("---")
-    if st.button("🔄 Reset All Inputs", use_container_width=True):
-        reset_form()
+    if st.button("🔄 Reset All Inputs", use_container_width=True, help="Clear all inputs and start over"):
+        reset_all()
         st.rerun()
