@@ -17,6 +17,44 @@ st.set_page_config(
     layout="centered"
 )
 
+# Initialize session state for form data
+if 'form_data' not in st.session_state:
+    st.session_state.form_data = {
+        'extracurricular_involved': "No",
+        'extracurricular_hours': 0.0,
+        'gaming_question': "No",
+        'gaming_hours': 0.0,
+        'part_time_work': "No",
+        'work_hours': 0.0,
+        'study_weekdays': 4.0,
+        'study_weekends': 2.0,
+        'late_submissions': 2,
+        'academic_units': 15,
+        'stress_level': 3,
+        'social_support': 3,
+        'sleep_hours': 7.0,
+        'financial_difficulty': 3
+    }
+
+def reset_form():
+    """Reset all form data to default values"""
+    st.session_state.form_data = {
+        'extracurricular_involved': "No",
+        'extracurricular_hours': 0.0,
+        'gaming_question': "No",
+        'gaming_hours': 0.0,
+        'part_time_work': "No",
+        'work_hours': 0.0,
+        'study_weekdays': 4.0,
+        'study_weekends': 2.0,
+        'late_submissions': 2,
+        'academic_units': 15,
+        'stress_level': 3,
+        'social_support': 3,
+        'sleep_hours': 7.0,
+        'financial_difficulty': 3
+    }
+
 # Title and description
 st.title("🎓 Student Risk Prediction System")
 st.markdown("---")
@@ -151,7 +189,9 @@ if model and scaler:
     extracurricular_involved = st.radio(
         "Are you involved in extracurricular activities?",
         ["No", "Yes"],
-        horizontal=True
+        horizontal=True,
+        key='extracurricular_involved',
+        index=0 if st.session_state.form_data['extracurricular_involved'] == "No" else 1
     )
     
     if extracurricular_involved == "Yes":
@@ -159,15 +199,18 @@ if model and scaler:
             "Hours spent on extracurricular activities per week:",
             min_value=0.0,
             max_value=40.0,
-            value=5.0,
-            step=0.5
+            value=st.session_state.form_data['extracurricular_hours'],
+            step=0.5,
+            key='extracurricular_hours'
         )
     
     # Gaming
     gaming_question = st.radio(
         "Are you playing games?",
         ["No", "Yes"],
-        horizontal=True
+        horizontal=True,
+        key='gaming_question',
+        index=0 if st.session_state.form_data['gaming_question'] == "No" else 1
     )
     
     if gaming_question == "Yes":
@@ -175,8 +218,9 @@ if model and scaler:
             "Hours spent playing games per day:",
             min_value=0.0,
             max_value=24.0,
-            value=1.0,
-            step=0.5
+            value=st.session_state.form_data['gaming_hours'],
+            step=0.5,
+            key='gaming_hours'
         )
     
     # --- PART-TIME WORK ---
@@ -185,7 +229,9 @@ if model and scaler:
     part_time_work = st.radio(
         "Do you work part-time?",
         ["No", "Yes"],
-        horizontal=True
+        horizontal=True,
+        key='part_time_work',
+        index=0 if st.session_state.form_data['part_time_work'] == "No" else 1
     )
     
     if part_time_work == "Yes":
@@ -193,8 +239,9 @@ if model and scaler:
             "Work Hours per week:",
             min_value=0.0,
             max_value=40.0,
-            value=10.0,
-            step=0.5
+            value=st.session_state.form_data['work_hours'],
+            step=0.5,
+            key='work_hours'
         )
     
     # --- STUDY INFORMATION ---
@@ -207,22 +254,26 @@ if model and scaler:
             "Study Hours (Weekdays):",
             min_value=0.0,
             max_value=24.0,
-            value=4.0,
-            step=0.5
+            value=st.session_state.form_data['study_weekdays'],
+            step=0.5,
+            key='study_weekdays'
         )
         
         study_weekends = st.number_input(
             "Study Hours (Weekends):",
             min_value=0.0,
             max_value=24.0,
-            value=2.0,
-            step=0.5
+            value=st.session_state.form_data['study_weekends'],
+            step=0.5,
+            key='study_weekends'
         )
         
         late_submissions = st.selectbox(
             "Late Submissions frequency:",
             options=[1, 2, 3, 4],
-            format_func=lambda x: ["Never", "Rarely", "Sometimes", "Often"][x-1]
+            format_func=lambda x: ["Never", "Rarely", "Sometimes", "Often"][x-1],
+            index=st.session_state.form_data['late_submissions'] - 1,
+            key='late_submissions'
         )
     
     with col2:
@@ -230,8 +281,9 @@ if model and scaler:
             "Number of Academic Units:",
             min_value=0,
             max_value=30,
-            value=15,
-            step=1
+            value=st.session_state.form_data['academic_units'],
+            step=1,
+            key='academic_units'
         )
     
     # --- WELL-BEING ---
@@ -244,14 +296,16 @@ if model and scaler:
             "Stress Level (1-5 scale):",
             min_value=1,
             max_value=5,
-            value=3
+            value=st.session_state.form_data['stress_level'],
+            key='stress_level'
         )
         
         social_support = st.slider(
             "Level of Social Support (1-5 scale):",
             min_value=1,
             max_value=5,
-            value=3
+            value=st.session_state.form_data['social_support'],
+            key='social_support'
         )
     
     with col4:
@@ -259,19 +313,54 @@ if model and scaler:
             "Sleep Hours per night:",
             min_value=0.0,
             max_value=24.0,
-            value=7.0,
-            step=0.5
+            value=st.session_state.form_data['sleep_hours'],
+            step=0.5,
+            key='sleep_hours'
         )
         
         financial_difficulty = st.slider(
             "Financial Difficulty (1-5 scale):",
             min_value=1,
             max_value=5,
-            value=3
+            value=st.session_state.form_data['financial_difficulty'],
+            key='financial_difficulty'
         )
     
-    # Predict button
-    if st.button("🔍 Predict Risk", type="primary", use_container_width=True):
+    # Button section
+    col_btn1, col_btn2 = st.columns(2)
+    
+    with col_btn1:
+        predict_clicked = st.button("🔍 Predict Risk", type="primary", use_container_width=True)
+    
+    with col_btn2:
+        reset_clicked = st.button("🔄 Reset Form", type="secondary", use_container_width=True)
+    
+    # Handle reset button
+    if reset_clicked:
+        reset_form()
+        st.success("✅ Form reset successfully!")
+        st.rerun()
+    
+    # Handle predict button
+    if predict_clicked:
+        # Update session state with current values
+        st.session_state.form_data.update({
+            'extracurricular_involved': extracurricular_involved,
+            'extracurricular_hours': extracurricular_hours,
+            'gaming_question': gaming_question,
+            'gaming_hours': gaming_hours,
+            'part_time_work': part_time_work,
+            'work_hours': work_hours,
+            'study_weekdays': study_weekdays,
+            'study_weekends': study_weekends,
+            'late_submissions': late_submissions,
+            'academic_units': academic_units,
+            'stress_level': stress_level,
+            'social_support': social_support,
+            'sleep_hours': sleep_hours,
+            'financial_difficulty': financial_difficulty
+        })
+        
         # Calculate engineered features
         total_study_hours = study_weekdays + study_weekends
         study_efficiency = total_study_hours / (late_submissions + 0.1)
@@ -367,3 +456,10 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("**Note:** The model is trained on your first run and saved for future use.")
+    
+    # Reset button in sidebar too for convenience
+    st.markdown("### Quick Actions")
+    if st.button("🔄 Reset All Data", key="sidebar_reset"):
+        reset_form()
+        st.success("Form reset!")
+        st.rerun()
