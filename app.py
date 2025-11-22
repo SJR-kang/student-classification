@@ -20,16 +20,6 @@ def calculate_risk_factors(student_data):
     """
     risk_factors = []
     
-    # Academic Performance Rules
-    if student_data['gwa'] >= 2.25:
-        risk_factors.append(f"GWA ≥ 2.25 (Current: {student_data['gwa']})")
-    
-    if student_data['failed_subjects'] >= 1:
-        risk_factors.append(f"Failed ≥ 1 subject (Current: {student_data['failed_subjects']})")
-    
-    if student_data['attendance_rate'] <= 10:
-        risk_factors.append(f"Attendance ≤ 10% (Current: {student_data['attendance_rate']}%)")
-    
     # Study Habits Rules
     if student_data['study_weekdays'] == 0:
         risk_factors.append("Study hours (weekdays) = 0")
@@ -79,44 +69,12 @@ def calculate_risk_factors(student_data):
 def main():
     st.subheader("Enter the student's information:")
     
-    # --- ACADEMIC PERFORMANCE ---
-    st.markdown("### 📊 Academic Performance")
+    # --- STUDY HABITS ---
+    st.markdown("### 📚 Study Habits")
     
     col1, col2 = st.columns(2)
     
     with col1:
-        gwa = st.number_input(
-            "General Weighted Average (GWA):",
-            min_value=1.0,
-            max_value=5.0,
-            value=2.0,
-            step=0.01,
-            help="1.0 = Excellent, 5.0 = Poor"
-        )
-        
-        failed_subjects = st.number_input(
-            "Number of failed subjects:",
-            min_value=0,
-            max_value=10,
-            value=0,
-            step=1
-        )
-    
-    with col2:
-        attendance_rate = st.slider(
-            "Attendance rate (%):",
-            min_value=0,
-            max_value=100,
-            value=85,
-            step=5
-        )
-    
-    # --- STUDY HABITS ---
-    st.markdown("### 📚 Study Habits")
-    
-    col3, col4 = st.columns(2)
-    
-    with col3:
         study_weekdays = st.number_input(
             "Study Hours (Weekdays):",
             min_value=0.0,
@@ -133,7 +91,7 @@ def main():
             step=0.5
         )
     
-    with col4:
+    with col2:
         late_submissions = st.selectbox(
             "Late Submissions frequency:",
             options=["never", "rarely", "sometimes", "often"],
@@ -143,9 +101,9 @@ def main():
     # --- OUTSIDE ACTIVITIES ---
     st.markdown("### 🎯 Outside Activities")
     
-    col5, col6 = st.columns(2)
+    col3, col4 = st.columns(2)
     
-    with col5:
+    with col3:
         extracurricular_involvement = st.radio(
             "Extracurricular involvement:",
             ["none", "occasionally", "regularly"],
@@ -163,7 +121,7 @@ def main():
         else:
             extracurricular_hours = 0
     
-    with col6:
+    with col4:
         gaming_hours = st.number_input(
             "Hours spent playing games per day:",
             min_value=0.0,
@@ -175,16 +133,16 @@ def main():
     # --- PART-TIME WORK ---
     st.markdown("### 💼 Part-time Work")
     
-    col7, col8 = st.columns(2)
+    col5, col6 = st.columns(2)
     
-    with col7:
+    with col5:
         part_time_work = st.radio(
             "Do you work part-time?",
             ["No", "Yes"],
             horizontal=True
         )
     
-    with col8:
+    with col6:
         if part_time_work == "Yes":
             work_hours = st.number_input(
                 "Work Hours per week:",
@@ -199,9 +157,9 @@ def main():
     # --- WELL-BEING ---
     st.markdown("### 😊 Well-being")
     
-    col9, col10 = st.columns(2)
+    col7, col8 = st.columns(2)
     
-    with col9:
+    with col7:
         stress_level = st.slider(
             "Stress Level (1-5 scale):",
             min_value=1,
@@ -218,7 +176,7 @@ def main():
             help="1 = Low support, 5 = High support"
         )
     
-    with col10:
+    with col8:
         sleep_hours = st.number_input(
             "Sleep Hours per night:",
             min_value=0.0,
@@ -239,9 +197,6 @@ def main():
     if st.button("🔍 Predict Risk", type="primary", use_container_width=True):
         # Collect all student data
         student_data = {
-            'gwa': gwa,
-            'failed_subjects': failed_subjects,
-            'attendance_rate': attendance_rate,
             'study_weekdays': study_weekdays,
             'study_weekends': study_weekends,
             'late_submissions': late_submissions,
@@ -265,9 +220,9 @@ def main():
         st.markdown("---")
         
         # Prediction and risk score
-        col11, col12 = st.columns(2)
+        col9, col10 = st.columns(2)
         
-        with col11:
+        with col9:
             if is_at_risk:
                 st.error(f"### 🚨 Prediction: **AT-RISK**")
                 st.metric("Risk Score", f"{risk_score} risk factors")
@@ -277,7 +232,7 @@ def main():
                 st.metric("Risk Score", "0 risk factors")
                 st.info("💡 Student does not meet any risk criteria.")
         
-        with col12:
+        with col10:
             st.subheader("Risk Assessment")
             st.write(f"**Total Risk Factors:** {risk_score}")
             st.write(f"**Risk Threshold:** ≥ 1 factor")
@@ -288,17 +243,17 @@ def main():
             st.markdown("### 🔍 Identified Risk Factors")
             
             # Group risk factors by category
-            academic_risks = [f for f in risk_factors if any(keyword in f.lower() for keyword in ['gwa', 'failed', 'attendance', 'study', 'late'])]
+            study_risks = [f for f in risk_factors if any(keyword in f.lower() for keyword in ['study', 'late'])]
             personal_risks = [f for f in risk_factors if any(keyword in f.lower() for keyword in ['work', 'sleep', 'gaming'])]
             activity_risks = [f for f in risk_factors if 'extracurricular' in f.lower()]
             wellbeing_risks = [f for f in risk_factors if any(keyword in f.lower() for keyword in ['stress', 'financial', 'social'])]
             
-            col13, col14 = st.columns(2)
+            col11, col12 = st.columns(2)
             
-            with col13:
-                if academic_risks:
-                    st.markdown("**📚 Academic Risks:**")
-                    for risk in academic_risks:
+            with col11:
+                if study_risks:
+                    st.markdown("**📚 Study Risks:**")
+                    for risk in study_risks:
                         st.write(f"• {risk}")
                 
                 if personal_risks:
@@ -306,7 +261,7 @@ def main():
                     for risk in personal_risks:
                         st.write(f"• {risk}")
             
-            with col14:
+            with col12:
                 if activity_risks:
                     st.markdown("**🎯 Activity Risks:**")
                     for risk in activity_risks:
@@ -323,30 +278,25 @@ def main():
         # Summary statistics
         st.markdown("### 📈 Student Profile Summary")
         
-        col15, col16, col17, col18 = st.columns(4)
+        col13, col14, col15, col16 = st.columns(4)
         
-        with col15:
+        with col13:
             st.metric("Study Hours/Week", f"{(study_weekdays * 5) + (study_weekends * 2):.1f}")
         
-        with col16:
+        with col14:
             st.metric("Total Commitments", f"{work_hours + extracurricular_hours + (gaming_hours * 7):.1f}h/week")
         
-        with col17:
-            st.metric("Academic Status", f"GWA: {gwa}")
+        with col15:
+            st.metric("Stress Level", f"{stress_level}/5")
         
-        with col18:
-            st.metric("Well-being", f"Stress: {stress_level}/5")
+        with col16:
+            st.metric("Sleep Quality", f"{sleep_hours}h/night")
 
 # Sidebar information
 with st.sidebar:
     st.header("ℹ️ Risk Criteria")
     st.markdown("""
     **At-Risk if ANY of these apply:**
-    
-    **📊 Academic:**
-    - GWA ≥ 2.25
-    - Failed ≥ 1 subject  
-    - Attendance ≤ 10%
     
     **📚 Study Habits:**
     - Study hours (weekdays) = 0
@@ -368,7 +318,7 @@ with st.sidebar:
     """)
     
     st.markdown("---")
-    st.markdown("**Note:** This system uses explicit rule-based criteria instead of machine learning for transparent and accurate risk assessment.")
+    st.markdown("**Note:** This system uses explicit rule-based criteria for transparent and accurate risk assessment.")
 
 if __name__ == "__main__":
     main()
