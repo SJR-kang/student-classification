@@ -149,13 +149,6 @@ def load_model_and_scaler():
 model, scaler = load_model_and_scaler()
 
 if model and scaler:
-    # Add reset button at the top
-    col_reset, _ = st.columns([1, 5])
-    with col_reset:
-        if st.button("🔄 Reset All", use_container_width=True, help="Clear all inputs and start over"):
-            reset_all()
-            st.rerun()
-    
     st.subheader("Enter the student's information:")
     
     # Initialize variables with session state
@@ -334,17 +327,21 @@ if model and scaler:
             key=f'financial_difficulty_{st.session_state.reset_counter}'
         )
     
-    # Action buttons
-    col_predict, col_reset2 = st.columns(2)
+    # Action buttons - Reset button beside Predict button
+    col_predict, col_reset = st.columns(2)
     
     with col_predict:
-        predict_clicked = st.button("🔍 Predict Risk", type="primary", use_container_width=True)
+        predict_clicked = st.button("🔍 Predict Risk", type="primary", use_container_width=True, key=f"predict_{st.session_state.reset_counter}")
     
-    with col_reset2:
-        if st.button("🔄 Reset All", use_container_width=True, help="Clear all inputs and start over"):
-            reset_all()
-            st.rerun()
+    with col_reset:
+        reset_clicked = st.button("🔄 Reset All", use_container_width=True, key=f"reset_{st.session_state.reset_counter}")
     
+    # Handle reset button click
+    if reset_clicked:
+        reset_all()
+        st.rerun()
+    
+    # Handle predict button click
     if predict_clicked:
         # Calculate engineered features
         total_study_hours = study_weekdays + study_weekends
@@ -441,9 +438,3 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("**Note:** The model is trained on your first run and saved for future use.")
-    
-    # Additional reset button in sidebar
-    st.markdown("---")
-    if st.button("🔄 Reset All Inputs", use_container_width=True, help="Clear all inputs and start over"):
-        reset_all()
-        st.rerun()
