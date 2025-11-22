@@ -26,18 +26,18 @@ if 'form_data' not in st.session_state:
         'gaming_hours': 0.0,
         'part_time_work': "No",
         'work_hours': 0.0,
-        'study_weekdays': 4.0,
-        'study_weekends': 2.0,
-        'late_submissions': 2,
-        'academic_units': 15,
-        'stress_level': 3,
-        'social_support': 3,
-        'sleep_hours': 7.0,
-        'financial_difficulty': 3
+        'study_weekdays': 0.0,
+        'study_weekends': 0.0,
+        'late_submissions': 1,  # Never
+        'academic_units': 0,
+        'stress_level': 1,  # Minimum
+        'social_support': 1,  # Minimum
+        'sleep_hours': 0.0,
+        'financial_difficulty': 1  # Minimum
     }
 
 def reset_form():
-    """Reset all form data to default values"""
+    """Reset all form data to zero/default values"""
     st.session_state.form_data = {
         'extracurricular_involved': "No",
         'extracurricular_hours': 0.0,
@@ -45,14 +45,14 @@ def reset_form():
         'gaming_hours': 0.0,
         'part_time_work': "No",
         'work_hours': 0.0,
-        'study_weekdays': 4.0,
-        'study_weekends': 2.0,
-        'late_submissions': 2,
-        'academic_units': 15,
-        'stress_level': 3,
-        'social_support': 3,
-        'sleep_hours': 7.0,
-        'financial_difficulty': 3
+        'study_weekdays': 0.0,
+        'study_weekends': 0.0,
+        'late_submissions': 1,  # Never
+        'academic_units': 0,
+        'stress_level': 1,  # Minimum
+        'social_support': 1,  # Minimum
+        'sleep_hours': 0.0,
+        'financial_difficulty': 1  # Minimum
     }
 
 # Title and description
@@ -71,9 +71,9 @@ def load_model_and_scaler():
                 scaler = pickle.load(f)
             st.success("✅ Pre-trained model loaded successfully!")
             return model, scaler
-        else:
-            # Train model if not exists
-            st.info("🔄 Training model... This may take a moment.")
+        # else:
+        #     # Train model if not exists
+        #     st.info("🔄 Training model... This may take a moment.")
             
             # Load dataset
             df = pd.read_csv('Balanced_Realistic_Student_Dataset_v2.csv')
@@ -164,7 +164,7 @@ def load_model_and_scaler():
             with open('scaler.pkl', 'wb') as f:
                 pickle.dump(scaler, f)
                 
-            st.success("✅ Model trained and saved successfully!")
+            # st.success("✅ Model trained and saved successfully!")
             return lr, scaler
             
     except Exception as e:
@@ -338,7 +338,7 @@ if model and scaler:
     # Handle reset button
     if reset_clicked:
         reset_form()
-        st.success("✅ Form reset successfully!")
+        st.success("✅ All inputs reset to zero!")
         st.rerun()
     
     # Handle predict button
@@ -459,7 +459,7 @@ with st.sidebar:
     
     # Reset button in sidebar too for convenience
     st.markdown("### Quick Actions")
-    if st.button("🔄 Reset All Data", key="sidebar_reset"):
+    if st.button("🔄 Reset All Data", key="sidebar_reset", use_container_width=True):
         reset_form()
-        st.success("Form reset!")
+        st.success("All inputs reset to zero!")
         st.rerun()
